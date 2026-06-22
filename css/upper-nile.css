@@ -1,0 +1,3727 @@
+:root{--un-blue:#143d59;--un-cyan:#1f9ac4;--un-teal:#1aa67a;--un-gold:#f3b23c;--un-red:#d25d5d;--un-bg:#f4f7fb;--un-card:#ffffff;--un-ink:#172333;--un-muted:#64748b;--un-line:#dbe4ef;--un-shadow:0 12px 35px rgba(16,39,66,.10)}
+body{background:var(--un-bg);color:var(--un-ink)}
+.un-container{width:min(1700px,97vw);margin:0 auto}.un-hero{background:linear-gradient(135deg,#102f4a,#155b7a 50%,#1c9a8a);color:white;padding:38px 0 34px}.un-hero-grid{display:grid;grid-template-columns:1fr 360px;gap:24px;align-items:center}.un-kicker{text-transform:uppercase;letter-spacing:.12em;font-size:.76rem;font-weight:800;color:#2f87a6}.un-hero .un-kicker{color:#bdefff}.un-hero h1{font-size:clamp(2rem,3vw,3.4rem);line-height:1.05;margin:8px 0 14px}.un-lead{font-size:1.05rem;line-height:1.65;max-width:850px;color:#ecfeff}.un-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.un-badges span{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:8px 12px;font-size:.86rem;font-weight:700}.un-source-card{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:22px;padding:20px;box-shadow:var(--un-shadow)}.un-source-card h3{margin:0 0 8px}.un-source-card p{color:#e9fbff;line-height:1.55}.un-back-link{display:inline-flex;margin-top:8px;color:white;text-decoration:none;font-weight:800;background:rgba(255,255,255,.15);padding:9px 12px;border-radius:12px}.un-main{padding:26px 0 60px}.un-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px;position:sticky;top:0;background:rgba(244,247,251,.93);backdrop-filter:blur(8px);z-index:20;padding:10px 0}.un-tab{border:1px solid var(--un-line);background:white;color:var(--un-blue);border-radius:999px;padding:10px 14px;font-weight:800;cursor:pointer}.un-tab.active{background:var(--un-blue);color:white;border-color:var(--un-blue)}.un-filter-panel{display:grid;grid-template-columns:120px repeat(5,minmax(150px,1fr)) auto;gap:10px;align-items:end;background:white;border:1px solid var(--un-line);box-shadow:var(--un-shadow);border-radius:20px;padding:14px;margin-bottom:20px}.un-filter-title{font-weight:900;color:var(--un-blue);align-self:center}.un-filter-panel label{font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;font-weight:800;color:var(--un-muted)}.un-filter-panel select{width:100%;display:block;margin-top:5px;border:1px solid var(--un-line);border-radius:12px;padding:9px 10px;background:#f8fbff;color:var(--un-ink);font-weight:700}.un-reset-btn,.un-mini-btn{border:0;background:#e9f4f8;color:#0b4a63;border-radius:12px;padding:10px 12px;font-weight:900;cursor:pointer}.un-panel{display:none}.un-panel.active{display:block}.un-section-heading{display:flex;justify-content:space-between;gap:20px;align-items:flex-end;margin:10px 0 16px}.un-section-heading h2{margin:4px 0 6px;font-size:1.55rem;color:var(--un-blue)}.un-section-heading p,.un-card p{color:var(--un-muted);line-height:1.55;margin:0}.un-card{background:var(--un-card);border:1px solid var(--un-line);border-radius:22px;padding:18px;box-shadow:var(--un-shadow);margin-bottom:20px}.un-card h3{margin:0 0 8px;color:var(--un-blue)}.un-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;margin-bottom:14px}.un-alignment-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:20px}.un-align-card{background:white;border:1px solid var(--un-line);border-top:5px solid var(--un-cyan);border-radius:20px;padding:16px;box-shadow:var(--un-shadow);cursor:pointer;transition:.2s}.un-align-card:hover{transform:translateY(-2px);border-color:#7fc9df}.un-align-code{font-weight:900;color:var(--un-blue);font-size:1.05rem;margin-bottom:6px}.un-align-national{font-size:.82rem;color:var(--un-muted);line-height:1.4;min-height:58px}.un-align-arrow{color:var(--un-teal);font-weight:900;margin:8px 0}.un-align-state{font-weight:900;color:var(--un-ink);font-size:.92rem}.un-kpi-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-bottom:20px}.un-kpi{background:white;border:1px solid var(--un-line);border-radius:20px;padding:16px;box-shadow:var(--un-shadow);position:relative;overflow:hidden}.un-kpi::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:linear-gradient(90deg,var(--un-cyan),var(--un-teal))}.un-kpi-label{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--un-muted);font-weight:900}.un-kpi-value{font-size:1.55rem;font-weight:950;color:var(--un-blue);margin-top:6px}.un-kpi-sub{font-size:.78rem;color:var(--un-muted);margin-top:4px}.un-grid-2{display:grid;grid-template-columns:1.4fr .9fr;gap:20px}.un-map{height:560px;border-radius:18px;overflow:hidden;border:1px solid var(--un-line);background:#eaf2f6}.un-map-card{padding-bottom:18px}.leaflet-control-attribution{font-size:10px}.un-objective-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.un-objective-card{border:1px solid var(--un-line);border-radius:18px;padding:14px;background:#fbfdff;cursor:pointer}.un-objective-card h4{margin:0 0 8px;color:var(--un-blue);font-size:.95rem}.un-objective-code{font-size:.76rem;font-weight:900;color:var(--un-teal);margin-bottom:4px}.un-progress{height:9px;background:#e6eef4;border-radius:999px;overflow:hidden;margin:10px 0}.un-progress span{display:block;height:100%;background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));border-radius:999px;max-width:100%}.un-objective-stats{display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:.82rem;color:var(--un-muted)}.un-objective-stats strong{color:var(--un-ink)}.un-insights{display:grid;gap:10px}.un-insight{background:#f7fbfd;border-left:4px solid var(--un-cyan);border-radius:14px;padding:12px;color:#274057;line-height:1.45}.un-insights-large{grid-template-columns:repeat(2,1fr)}.un-mini-metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.un-mini-metric{background:#f7fbfd;border:1px solid var(--un-line);border-radius:16px;padding:12px}.un-mini-metric strong{display:block;font-size:1.3rem;color:var(--un-blue)}.un-mini-metric span{font-size:.8rem;color:var(--un-muted);font-weight:800;text-transform:uppercase}.un-table-wrap{overflow:auto;border:1px solid var(--un-line);border-radius:16px}.un-table{width:100%;border-collapse:collapse;background:white;min-width:920px}.un-table th{background:#113d58;color:white;text-align:left;font-size:.78rem;padding:11px;position:sticky;top:0}.un-table td{border-top:1px solid #edf2f7;padding:10px;font-size:.85rem;vertical-align:top}.un-table tr:hover td{background:#f7fbfd}.un-pill{display:inline-flex;border-radius:999px;background:#e8f6f3;color:#0c6b56;padding:4px 8px;font-size:.75rem;font-weight:900}.un-roadmap-list{display:grid;gap:16px}.un-roadmap-item{background:white;border:1px solid var(--un-line);border-radius:20px;box-shadow:var(--un-shadow);padding:16px}.un-roadmap-top{display:grid;grid-template-columns:minmax(0,1fr) 120px 120px 120px;gap:12px;align-items:center}.un-roadmap-top h3{margin:0;color:var(--un-blue)}.un-statbox{background:#f7fbfd;border:1px solid var(--un-line);border-radius:14px;padding:10px;text-align:center}.un-statbox strong{display:block;color:var(--un-blue);font-size:1.1rem}.un-statbox span{font-size:.75rem;color:var(--un-muted);font-weight:900;text-transform:uppercase}.un-county-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}.un-county-card,.un-partner-card{background:white;border:1px solid var(--un-line);border-radius:20px;padding:16px;box-shadow:var(--un-shadow)}.un-county-card h3,.un-partner-card h3{margin:0 0 8px;color:var(--un-blue)}.un-partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:20px}.un-spacer-top{margin-top:20px!important}.fund-pos{color:#0f7a5b;font-weight:900}.fund-gap{color:#a04545;font-weight:900}@media(max-width:1100px){.un-hero-grid,.un-grid-2{grid-template-columns:1fr}.un-kpi-grid,.un-alignment-grid,.un-objective-grid{grid-template-columns:repeat(2,1fr)}.un-filter-panel{grid-template-columns:1fr 1fr}.un-filter-title{grid-column:1/-1}.un-map{height:440px}.un-county-grid,.un-partner-grid{grid-template-columns:1fr 1fr}.un-insights-large{grid-template-columns:1fr}}@media(max-width:700px){.un-kpi-grid,.un-alignment-grid,.un-objective-grid,.un-county-grid,.un-partner-grid,.un-mini-metrics{grid-template-columns:1fr}.un-filter-panel{grid-template-columns:1fr}.un-tabs{position:static}.un-map{height:360px}}
+
+.un-align-card-grouped{min-height:260px}.un-align-linked-title{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--un-muted);font-weight:900;margin:6px 0 8px}.un-align-linked-list{display:grid;gap:8px}.un-align-linked-item{background:#f7fbfd;border:1px solid var(--un-line);border-radius:12px;padding:9px;display:grid;gap:6px}.un-align-linked-item strong{font-size:.82rem;line-height:1.35;color:var(--un-ink)}
+
+/* Upper Nile introduction and Power BI-style progress additions */
+.un-filter-hidden{display:none!important}.un-intro-layout{display:grid;grid-template-columns:1.25fr .75fr;gap:20px;margin-bottom:20px}.un-intro-text p{margin:0 0 14px;color:#334155;line-height:1.65}.un-priority-list{margin:14px 0 0 20px;color:#334155;line-height:1.75}.un-priority-list li{margin-bottom:8px}.un-architecture-card{overflow:hidden}.un-org-chart{display:grid;justify-items:center;gap:14px;padding:8px 0 4px}.un-org-node{border-radius:4px;padding:14px 22px;text-align:center;font-weight:900;color:white}.un-org-node.top{background:#327c9f;font-size:1.15rem}.un-org-node.lead{background:#444}.un-org-branches{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;width:100%;margin-top:16px;position:relative}.un-org-pillar{background:#327c9f;color:white;border-radius:4px;padding:18px 12px;text-align:center;min-height:118px;display:flex;flex-direction:column;justify-content:center;gap:8px;font-size:1.5rem}.un-org-pillar strong{display:block;font-size:1rem}.un-org-pillar span{display:block;background:#444;margin:8px -12px -18px;padding:10px;color:#fff;font-size:.8rem;line-height:1.3}.un-ecosystem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+/* Ecosystem resource cards: keep links styled like the original cards */
+.un-ecosystem-grid a,
+.un-ecosystem-grid span{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:12px;
+  font-weight:800;
+  color:#24435d;
+  text-decoration:none;
+  display:block;
+}
+
+.un-ecosystem-grid a{
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.un-ecosystem-grid a:hover{
+  transform:translateY(-2px);
+  border-color:#93cfe4;
+  box-shadow:0 10px 24px rgba(16,39,66,.12);
+  color:#0b4a63;
+}
+.un-kpi-grid.powerbi-kpis{grid-template-columns:repeat(5,1fr)}.un-method-note{background:#f7fbfd;border:1px solid var(--un-line);border-left:5px solid var(--un-cyan);border-radius:16px;padding:14px 16px;color:#425b74;margin:-6px 0 20px;line-height:1.55}.un-roadmap-visuals{display:grid;grid-template-columns:1fr 220px 1fr 220px;gap:18px;align-items:center;margin:16px 0}.un-comparison{background:#f7fbfd;border:1px solid var(--un-line);border-radius:16px;padding:14px}.un-comparison h4,.un-gauge h4{margin:0 0 12px;color:var(--un-blue)}.un-bar-row{display:grid;grid-template-columns:80px 1fr 68px;gap:8px;align-items:center;margin:8px 0;color:#334155;font-weight:800}.un-bar-track{height:16px;background:#e8eef4;border-radius:999px;overflow:hidden}.un-bar-fill{height:100%;background:linear-gradient(90deg,#0b83bd,#1aa67a);border-radius:999px}.un-bar-fill.target{background:#f3b23c}.un-gauge{background:#f7fbfd;border:1px solid var(--un-line);border-radius:16px;padding:14px;text-align:center}.un-gauge-ring{width:150px;height:75px;margin:8px auto 0;border-radius:150px 150px 0 0;background:conic-gradient(from 270deg,#0b83bd var(--value),#eef2f7 0);position:relative;overflow:hidden}.un-gauge-ring:after{content:"";position:absolute;left:22px;right:22px;bottom:0;height:53px;background:#f7fbfd;border-radius:110px 110px 0 0}.un-gauge-value{font-size:2rem;font-weight:900;color:#667085;margin-top:-42px;position:relative}.un-gauge-scale{display:flex;justify-content:space-between;font-size:.8rem;color:#64748b;margin-top:12px}.un-total-row{font-weight:900;background:#fbfdff}.un-total-row td{border-top:2px solid #748394!important}.un-detail-note{font-size:.86rem;color:#64748b;margin:8px 0 12px}.un-money-neg{color:#0f7a5b;font-weight:900}.un-money-pos{color:#a04545;font-weight:900}@media(max-width:1100px){.un-intro-layout,.un-roadmap-visuals{grid-template-columns:1fr}.un-org-branches,.un-ecosystem-grid{grid-template-columns:1fr 1fr}.un-kpi-grid.powerbi-kpis{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.un-org-branches,.un-ecosystem-grid,.un-kpi-grid.powerbi-kpis{grid-template-columns:1fr}}
+
+.un-financial-progress-card{margin-top:18px;margin-bottom:18px;}
+.un-compact-table th,.un-compact-table td{padding:8px 10px;font-size:0.88rem;}
+.un-child-row{font-weight:600;color:#45627d;}
+
+/* Upper Nile overview shape map */
+.un-map{position:relative;background:#ffffff;border:1px solid var(--un-line);border-radius:18px;overflow:hidden;min-height:520px;height:560px;}
+.un-shape-map{width:100%;height:100%;display:block;background:#ffffff;} 
+.county-shape{transition:fill .18s ease,opacity .18s ease,stroke-width .18s ease;}
+.county-shape:hover{stroke:#062f46!important;stroke-width:2.4!important;opacity:1!important;}
+.county-label{font-size:9px;font-weight:800;fill:#ffffff;pointer-events:none;text-shadow:0 1px 3px rgba(0,0,0,.85),1px 0 3px rgba(0,0,0,.85),-1px 0 3px rgba(0,0,0,.85);opacity:.85;}
+.un-map-tooltip{position:absolute;display:none;z-index:10;max-width:260px;background:rgba(5,31,48,.92);color:#fff;border-radius:12px;padding:10px 12px;font-size:.82rem;line-height:1.45;box-shadow:0 10px 28px rgba(0,0,0,.25);pointer-events:none;}
+.un-map-legend{margin-top:18px;border-top:1px solid var(--un-line);padding-top:14px;color:var(--un-muted);font-size:.86rem;display:grid;gap:8px;}
+.un-map-legend h4{margin:0 0 4px;color:var(--un-blue);}
+.un-map-legend div{display:flex;align-items:center;gap:8px;}
+.swatch{width:18px;height:14px;border-radius:4px;border:1px solid #d3dee7;display:inline-block;}
+.swatch.none{background:#E5E7EB}.swatch.low{background:#bfe8f7}.swatch.mid{background:#5bb4dc}.swatch.high{background:#137fb5}.swatch.over{background:#003f63}
+
+/* Highlighted roadmap activity progress status */
+.un-progress-good{color:#0f7a5b;font-weight:900;}
+.un-progress-mid{color:#b7791f;font-weight:900;}
+.un-progress-low{color:#a04545;font-weight:900;}
+
+
+/* Expanded NDSO/UNSRM labels for clearer user-facing terminology */
+.un-align-code {
+  line-height: 1.25;
+}
+.un-pill-long {
+  white-space: normal;
+  line-height: 1.25;
+  text-align: left;
+  border-radius: 12px;
+}
+.un-align-linked-item .un-pill-long {
+  display: block;
+  width: 100%;
+}
+.un-objective-code {
+  line-height: 1.25;
+}
+
+
+/* Roadmap Progress refinements: compact bars, metadata strip, and progress badges */
+.un-roadmap-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:10px;
+}
+.un-roadmap-meta span{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:999px;
+  padding:6px 10px;
+  color:#425b74;
+  font-size:.78rem;
+  font-weight:800;
+}
+.un-roadmap-meta strong{
+  color:var(--un-blue);
+}
+.un-roadmap-visuals-compact{
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+.un-roadmap-visuals-compact .un-comparison{
+  min-height:112px;
+}
+.un-roadmap-visuals-compact .un-bar-row{
+  grid-template-columns:140px 1fr 76px;
+}
+.un-progress-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:48px;
+  border-radius:999px;
+  padding:4px 9px;
+  font-weight:900;
+  font-size:.82rem;
+}
+.un-progress-badge.un-progress-good{
+  background:#e7f7ef;
+  color:#0f7a5b;
+}
+.un-progress-badge.un-progress-mid{
+  background:#fff4da;
+  color:#a26005;
+}
+.un-progress-badge.un-progress-low{
+  background:#fdecec;
+  color:#a04545;
+}
+.un-statbox{
+  min-height:74px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.un-statbox strong{
+  font-size:1.25rem;
+}
+@media(max-width:1100px){
+  .un-roadmap-visuals-compact{
+    grid-template-columns:1fr;
+  }
+  .un-roadmap-visuals-compact .un-bar-row{
+    grid-template-columns:130px 1fr 76px;
+  }
+}
+@media(max-width:700px){
+  .un-roadmap-meta{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .un-roadmap-visuals-compact .un-bar-row{
+    grid-template-columns:1fr;
+    gap:6px;
+  }
+}
+
+
+/* Simplified mixed-unit handling: hide unit aggregate visuals when units differ */
+.un-roadmap-visuals-funding-only{
+  grid-template-columns:1fr;
+}
+.un-roadmap-visuals-funding-only .un-comparison{
+  max-width:620px;
+}
+
+/* Neutral total-row label for mixed unit aggregation */
+.un-progress-badge.un-progress-neutral{
+  background:#eaf2f8;
+  color:#2d5570;
+}
+.un-total-dash{
+  color:#94a3b8;
+  font-weight:900;
+}
+
+/* Extra cascading filters for Roadmap Progress */
+.un-filter-panel{
+  grid-template-columns:120px repeat(4,minmax(150px,1fr)) auto;
+}
+.un-filter-panel label:nth-of-type(6),
+.un-filter-panel label:nth-of-type(7){
+  grid-column:auto;
+}
+@media(min-width:1101px){
+  .un-filter-panel{
+    grid-template-columns:120px repeat(5,minmax(145px,1fr)) auto;
+  }
+  .un-filter-panel label:nth-of-type(6){
+    grid-column:2 / span 2;
+  }
+  .un-filter-panel label:nth-of-type(7){
+    grid-column:4 / span 2;
+  }
+  .un-filter-panel .un-reset-btn{
+    grid-column:6;
+  }
+}
+
+
+/* =========================================================
+   Upper Nile width and Roadmap Progress readability update
+========================================================= */
+.un-container{
+  width:min(1700px,97vw) !important;
+  margin:0 auto;
+}
+
+.un-roadmap-top{
+  grid-template-columns:minmax(0,1fr) 120px 120px 120px !important;
+}
+
+.un-table{
+  width:100%;
+  table-layout:auto;
+}
+
+.un-table th:first-child,
+.un-table td:first-child{
+  width:32%;
+  min-width:340px;
+}
+
+.un-table th:nth-child(2),
+.un-table td:nth-child(2){
+  width:9%;
+}
+
+.un-table th:nth-child(3),
+.un-table td:nth-child(3){
+  width:10%;
+}
+
+.un-roadmap-visuals-funding-only .un-comparison{
+  max-width:760px;
+}
+
+@media(max-width:1100px){
+  .un-container{
+    width:min(100%,94vw) !important;
+  }
+  .un-roadmap-top{
+    grid-template-columns:1fr !important;
+  }
+}
+
+
+/* County View map + snapshot layout */
+.un-county-map-layout{
+  margin-bottom:20px;
+}
+
+#upper-nile-county-map{
+  min-height:520px;
+  height:560px;
+}
+
+#selected-county-snapshot{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+#selected-county-snapshot .un-mini-metric:first-child{
+  grid-column:1 / -1;
+}
+
+#selected-county-snapshot .un-mini-metric:first-child strong{
+  font-size:1.05rem;
+  line-height:1.25;
+}
+
+@media(max-width:1100px){
+  #upper-nile-county-map{
+    height:440px;
+    min-height:440px;
+  }
+}
+
+@media(max-width:700px){
+  #selected-county-snapshot{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-county-map{
+    height:360px;
+    min-height:360px;
+  }
+}
+
+
+/* County View refinements: map colored by number of activities */
+.un-map-legend .swatch.none{background:#E5E7EB}
+.un-map-legend .swatch.low{background:#bfe8f7}
+.un-map-legend .swatch.mid{background:#137fb5}
+.un-map-legend .swatch.high{background:#075985}
+.un-map-legend .swatch.over{background:#003f63}
+
+.un-tooltip-hint{
+  display:block;
+  margin-top:6px;
+  color:#bdefff;
+  font-weight:900;
+}
+
+.un-county-card{
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.un-county-card:hover{
+  transform:translateY(-2px);
+  border-color:#93cfe4;
+  box-shadow:0 14px 32px rgba(16,39,66,.14);
+}
+.un-county-card-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+}
+.un-county-activity-pill{
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:4px 8px;
+  font-size:.7rem;
+  font-weight:900;
+  white-space:nowrap;
+}
+.un-county-card p{
+  margin:3px 0;
+  color:#0f2437;
+}
+.un-county-units{
+  color:#516985!important;
+  font-size:.78rem;
+}
+#selected-county-snapshot .un-mini-metric:last-child{
+  grid-column:1 / -1;
+}
+#selected-county-snapshot .un-mini-metric:last-child strong{
+  font-size:.95rem;
+  line-height:1.3;
+}
+
+
+/* County View: planned vs reported activity status */
+.un-status-reported,
+.un-status-planned{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:999px;
+  padding:4px 8px;
+  font-size:.72rem;
+  font-weight:900;
+  white-space:nowrap;
+}
+.un-status-reported{
+  background:#e7f7ef;
+  color:#0f7a5b;
+}
+.un-status-planned{
+  background:#eef2f7;
+  color:#64748b;
+}
+
+
+/* County snapshot refinements: objectives and reported activity list */
+.un-county-note{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:10px 12px;
+  color:#425b74;
+  font-weight:800;
+  line-height:1.4;
+}
+
+.un-county-objectives-box,
+.un-county-activities-box{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:12px;
+}
+
+.un-county-box-title{
+  color:var(--un-blue);
+  font-weight:900;
+  font-size:.82rem;
+  margin-bottom:8px;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+}
+
+.un-county-objective-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.un-county-objective-pills span{
+  display:inline-flex;
+  border-radius:999px;
+  padding:5px 9px;
+  background:#e8f6f3;
+  color:#0c6b56;
+  font-weight:900;
+  font-size:.78rem;
+}
+
+.un-county-activities-box{
+  max-height:280px;
+  overflow-y:auto;
+}
+
+.un-county-activities-box ul{
+  margin:0;
+  padding-left:18px;
+  display:grid;
+  gap:7px;
+}
+
+.un-county-activities-box li{
+  color:#0f2437;
+  line-height:1.35;
+  font-weight:700;
+}
+
+.un-county-activities-box p,
+.un-county-objectives-box em{
+  color:#64748b;
+  font-style:normal;
+  font-weight:800;
+}
+
+
+/* County snapshot wording update */
+.un-county-note{
+  font-size:.82rem;
+}
+
+
+/* County snapshot reporting organisation pills */
+.un-county-orgs-box{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:12px;
+}
+
+.un-county-org-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.un-county-org-pills span{
+  display:inline-flex;
+  border-radius:999px;
+  padding:5px 9px;
+  background:#eef7fb;
+  color:#0b4a63;
+  font-weight:900;
+  font-size:.78rem;
+}
+
+.un-county-orgs-box em{
+  color:#64748b;
+  font-style:normal;
+  font-weight:800;
+}
+
+
+/* =========================================================
+   County View map height fix
+   Reduces blank space below the Upper Nile county map while
+   keeping the map centered and readable.
+========================================================= */
+.un-county-map-layout{
+  grid-template-columns:minmax(0,1.35fr) minmax(360px,.85fr);
+  align-items:start;
+}
+
+#upper-nile-county-map{
+  height:430px !important;
+  min-height:430px !important;
+}
+
+#upper-nile-county-map .un-shape-map{
+  height:100% !important;
+}
+
+@media(max-width:1100px){
+  .un-county-map-layout{
+    grid-template-columns:1fr;
+  }
+
+  #upper-nile-county-map{
+    height:420px !important;
+    min-height:420px !important;
+  }
+}
+
+@media(max-width:700px){
+  #upper-nile-county-map{
+    height:340px !important;
+    min-height:340px !important;
+  }
+}
+
+
+/* County snapshot implementing organisation pills */
+.un-county-impl-orgs-box{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:12px;
+}
+
+.un-county-impl-org-pills{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+.un-county-impl-org-pills span{
+  display:inline-flex;
+  border-radius:999px;
+  padding:5px 9px;
+  background:#fff7e6;
+  color:#8a5a00;
+  font-weight:900;
+  font-size:.78rem;
+}
+
+.un-county-impl-orgs-box em{
+  color:#64748b;
+  font-style:normal;
+  font-weight:800;
+}
+
+
+
+
+
+
+
+/* Final County View map alignment and scale */
+#panel-county .un-county-map-layout{
+  grid-template-columns:minmax(0,1.45fr) minmax(390px,.85fr);
+  align-items:start;
+}
+
+#upper-nile-county-map{
+  height:455px !important;
+  min-height:455px !important;
+  background:#ffffff;
+}
+
+#upper-nile-county-map .un-shape-map{
+  width:100%;
+  height:100%;
+}
+
+#panel-county .un-map-card{
+  padding-bottom:14px;
+}
+
+@media(max-width:1300px){
+  #panel-county .un-county-map-layout{
+    grid-template-columns:minmax(0,1.35fr) minmax(370px,.9fr);
+  }
+  #upper-nile-county-map{
+    height:440px !important;
+    min-height:440px !important;
+  }
+}
+
+@media(max-width:1100px){
+  #panel-county .un-county-map-layout{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-county-map{
+    height:420px !important;
+    min-height:420px !important;
+  }
+}
+
+@media(max-width:700px){
+  #upper-nile-county-map{
+    height:350px !important;
+    min-height:350px !important;
+  }
+}
+
+
+
+
+
+/* Partner Mapping final cleanup */
+.un-partner-map-layout{
+  grid-template-columns:minmax(0,1.55fr) minmax(390px,.85fr);
+  align-items:start;
+  margin-bottom:22px;
+}
+
+#upper-nile-partner-map{
+  height:430px !important;
+  min-height:430px !important;
+  background:#ffffff;
+}
+
+#upper-nile-partner-map .un-shape-map{
+  width:100%;
+  height:100%;
+}
+
+#panel-partners .un-map-card{
+  padding-bottom:14px;
+}
+
+#selected-partner-snapshot{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+#selected-partner-snapshot .un-mini-metric:first-child{
+  grid-column:1 / -1;
+}
+
+#selected-partner-snapshot .un-mini-metric:first-child strong{
+  font-size:1.05rem;
+  line-height:1.25;
+}
+
+.un-partner-chip{
+  display:inline-flex;
+  align-items:center;
+  border-radius:999px;
+  padding:4px 8px;
+  margin:2px 3px 2px 0;
+  background:#fff7e6;
+  color:#8a5a00;
+  font-weight:900;
+  font-size:.76rem;
+  white-space:nowrap;
+}
+
+#panel-partners #partner-breakdown{
+  display:none !important;
+}
+
+@media(max-width:1300px){
+  .un-partner-map-layout{
+    grid-template-columns:minmax(0,1.4fr) minmax(370px,.9fr);
+  }
+  #upper-nile-partner-map{
+    height:420px !important;
+    min-height:420px !important;
+  }
+}
+
+@media(max-width:1100px){
+  .un-partner-map-layout{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-partner-map{
+    height:400px !important;
+    min-height:400px !important;
+  }
+}
+
+@media(max-width:700px){
+  #selected-partner-snapshot{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-partner-map{
+    height:340px !important;
+    min-height:340px !important;
+  }
+}
+
+
+/* Partner Mapping final indicator labels */
+.un-indicator-chip{
+  display:inline-flex;
+  align-items:center;
+  border-radius:10px;
+  padding:4px 7px;
+  margin:2px 3px 2px 0;
+  background:#eef7fb;
+  color:#0b4a63;
+  font-weight:850;
+  font-size:.74rem;
+  line-height:1.25;
+  max-width:260px;
+  white-space:normal;
+  vertical-align:top;
+}
+
+.un-more-chip{
+  display:inline-flex;
+  border-radius:999px;
+  padding:4px 7px;
+  margin:2px 0;
+  background:#eef2f7;
+  color:#475569;
+  font-weight:900;
+  font-size:.74rem;
+}
+
+#selected-partner-snapshot .un-mini-metric:nth-child(5){
+  grid-column:1 / -1;
+}
+
+
+/* Partner Mapping: UNS RM Objective Indicator + Unit of Measure */
+.un-unit-chip{
+  display:inline-flex;
+  align-items:center;
+  border-radius:999px;
+  padding:4px 7px;
+  margin:2px 3px 2px 0;
+  background:#f7fbfd;
+  color:#425b74;
+  border:1px solid var(--un-line);
+  font-weight:900;
+  font-size:.74rem;
+  white-space:nowrap;
+}
+
+
+/* Enablers page upgrade */
+.un-enabler-note{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-left:4px solid #0b7fab;
+  border-radius:14px;
+  padding:12px 14px;
+  color:#425b74;
+  margin-bottom:18px;
+  line-height:1.45;
+}
+
+.un-enabler-map-layout{
+  grid-template-columns:minmax(0,1.45fr) minmax(390px,.85fr);
+  align-items:start;
+  margin-bottom:20px;
+}
+
+#upper-nile-enabler-map{
+  height:430px !important;
+  min-height:430px !important;
+  background:#ffffff;
+}
+
+#upper-nile-enabler-map .un-shape-map{
+  width:100%;
+  height:100%;
+}
+
+#selected-enabler-snapshot{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+#selected-enabler-snapshot .un-mini-metric:first-child{
+  grid-column:1 / -1;
+}
+
+.un-enabler-category-groups{
+  display:grid;
+  gap:14px;
+}
+
+.un-enabler-category{
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:12px;
+  background:#fbfdff;
+}
+
+.un-enabler-category h4{
+  margin:0 0 10px;
+  color:#1683bd;
+  font-size:1rem;
+}
+
+.un-enabler-unit-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:10px;
+}
+
+.un-enabler-unit-card{
+  background:#fff;
+  border:1px dashed #cbd8e6;
+  border-radius:10px;
+  padding:10px;
+  min-height:62px;
+}
+
+.un-enabler-unit-card span{
+  display:block;
+  color:#425b74;
+  font-size:.82rem;
+  margin-bottom:8px;
+}
+
+.un-enabler-unit-card strong{
+  color:#1683bd;
+  font-size:1.45rem;
+  font-weight:900;
+}
+
+@media(max-width:1300px){
+  .un-enabler-map-layout{
+    grid-template-columns:minmax(0,1.35fr) minmax(370px,.9fr);
+  }
+}
+
+@media(max-width:1100px){
+  .un-enabler-map-layout{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-enabler-map{
+    height:400px !important;
+    min-height:400px !important;
+  }
+}
+
+@media(max-width:700px){
+  #selected-enabler-snapshot{
+    grid-template-columns:1fr;
+  }
+  #upper-nile-enabler-map{
+    height:340px !important;
+    min-height:340px !important;
+  }
+}
+
+
+/* Enablers reconciled with Power BI grouping */
+#enabler-summary{
+  display:none !important;
+}
+
+
+/* Enablers final cleanup */
+.un-enabler-note,
+#enabler-summary,
+#enabler-county-table{
+  display:none !important;
+}
+
+#selected-enabler-snapshot{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+#selected-enabler-snapshot .un-mini-metric:first-child{
+  grid-column:1 / -1;
+}
+
+#selected-enabler-snapshot .un-mini-metric:first-child strong{
+  font-size:1.05rem;
+}
+
+
+/* Enablers requested cleanup - safe version */
+#enabler-county-table{
+  display:none !important;
+}
+
+#selected-enabler-snapshot{
+  grid-template-columns:1fr !important;
+}
+
+#selected-enabler-snapshot .un-mini-metric{
+  grid-column:1 / -1;
+}
+
+#selected-enabler-snapshot .un-mini-metric:not(:first-child){
+  display:none !important;
+}
+
+
+/* Correct contextual tab/filter handling */
+[data-target="insights"],
+#panel-insights{
+  display:none !important;
+}
+
+#global-filters label[style*="display: none"]{
+  display:none !important;
+}
+
+#global-filters{
+  align-items:end;
+}
+
+body.un-panel-partners #global-filters,
+body.un-panel-enablers #global-filters{
+  grid-template-columns:120px repeat(6,minmax(140px,1fr));
+}
+
+@media(max-width:1100px){
+  body.un-panel-partners #global-filters,
+  body.un-panel-enablers #global-filters{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+
+/* Partner Mapping / Enablers contextual filter layout with Implementing Organisation */
+body.un-panel-partners #global-filters{
+  grid-template-columns:120px repeat(4,minmax(160px,1fr)) auto !important;
+}
+body.un-panel-partners #global-filters #reset-filters{
+  grid-column:auto !important;
+}
+body.un-panel-enablers #global-filters{
+  grid-template-columns:120px repeat(4,minmax(150px,1fr)) auto !important;
+}
+body.un-panel-enablers #global-filters label:nth-of-type(5){
+  grid-column:2 / span 2;
+}
+body.un-panel-enablers #global-filters label:nth-of-type(6){
+  grid-column:4 / span 1;
+}
+@media(max-width:1100px){
+  body.un-panel-partners #global-filters,
+  body.un-panel-enablers #global-filters{
+    grid-template-columns:1fr 1fr !important;
+  }
+  body.un-panel-enablers #global-filters label:nth-of-type(5),
+  body.un-panel-enablers #global-filters label:nth-of-type(6){
+    grid-column:auto !important;
+  }
+}
+
+
+
+/* =========================================================
+   Final table readability fixes
+   Applies to Partner Mapping and Enablers tables.
+   Keeps the tables scrollable horizontally instead of squeezing
+   long activity/objective text into very narrow columns.
+========================================================= */
+#panel-partners .un-table-wrap,
+#panel-enablers .un-table-wrap,
+#panel-county .un-table-wrap{
+  overflow-x:auto !important;
+  -webkit-overflow-scrolling:touch;
+}
+
+/* General readable table behavior for these detailed pages */
+#panel-partners .un-table,
+#panel-enablers .un-table,
+#panel-county .un-table{
+  table-layout:fixed !important;
+  border-collapse:collapse;
+}
+
+#panel-partners .un-table th,
+#panel-partners .un-table td,
+#panel-enablers .un-table th,
+#panel-enablers .un-table td,
+#panel-county .un-table th,
+#panel-county .un-table td{
+  line-height:1.45;
+  vertical-align:top;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+
+/* Keep short pills readable and prevent UNSRM codes from splitting over two lines */
+#panel-partners .un-pill,
+#panel-enablers .un-pill,
+#panel-county .un-pill,
+#panel-partners .un-status-reported,
+#panel-partners .un-status-planned,
+#panel-enablers .un-status-reported,
+#panel-enablers .un-status-planned,
+#panel-county .un-status-reported,
+#panel-county .un-status-planned{
+  white-space:nowrap !important;
+}
+
+/* County activity list: give the Activity column proper room */
+#county-table{
+  min-width:1680px !important;
+}
+#county-table th:nth-child(1), #county-table td:nth-child(1){width:120px !important; min-width:120px !important;}
+#county-table th:nth-child(2), #county-table td:nth-child(2){width:80px !important; min-width:80px !important;}
+#county-table th:nth-child(3), #county-table td:nth-child(3){width:105px !important; min-width:105px !important;}
+#county-table th:nth-child(4), #county-table td:nth-child(4){width:390px !important; min-width:390px !important; white-space:normal !important;}
+#county-table th:nth-child(5), #county-table td:nth-child(5){width:135px !important; min-width:135px !important;}
+#county-table th:nth-child(6), #county-table td:nth-child(6){width:140px !important; min-width:140px !important;}
+#county-table th:nth-child(7), #county-table td:nth-child(7){width:110px !important; min-width:110px !important;}
+#county-table th:nth-child(8), #county-table td:nth-child(8){width:110px !important; min-width:110px !important;}
+#county-table th:nth-child(9), #county-table td:nth-child(9){width:160px !important; min-width:160px !important;}
+#county-table th:nth-child(10), #county-table td:nth-child(10){width:150px !important; min-width:150px !important;}
+#county-table th:nth-child(11), #county-table td:nth-child(11){width:145px !important; min-width:145px !important;}
+#county-table th:nth-child(12), #county-table td:nth-child(12){width:125px !important; min-width:125px !important;}
+
+/* Service coverage by county: prevent indicator and partner columns from being squeezed */
+#partner-county-table{
+  min-width:1580px !important;
+}
+#partner-county-table th:nth-child(1), #partner-county-table td:nth-child(1){width:160px !important; min-width:160px !important;}
+#partner-county-table th:nth-child(2), #partner-county-table td:nth-child(2){width:130px !important; min-width:130px !important; text-align:center;}
+#partner-county-table th:nth-child(3), #partner-county-table td:nth-child(3){width:150px !important; min-width:150px !important; text-align:center;}
+#partner-county-table th:nth-child(4), #partner-county-table td:nth-child(4){width:150px !important; min-width:150px !important;}
+#partner-county-table th:nth-child(5), #partner-county-table td:nth-child(5){width:420px !important; min-width:420px !important;}
+#partner-county-table th:nth-child(6), #partner-county-table td:nth-child(6){width:220px !important; min-width:220px !important;}
+#partner-county-table th:nth-child(7), #partner-county-table td:nth-child(7){width:350px !important; min-width:350px !important;}
+
+#partner-county-table .un-indicator-chip{
+  max-width:390px !important;
+  white-space:normal !important;
+  line-height:1.28;
+  margin-bottom:4px;
+}
+#partner-county-table .un-partner-chip,
+#partner-county-table .un-unit-chip{
+  white-space:normal !important;
+  line-height:1.25;
+  margin-bottom:4px;
+}
+
+/* Partner Mapping by UNSRM Objective Indicator: widen the indicator and organisation columns */
+#service-table{
+  min-width:1460px !important;
+}
+#service-table th:nth-child(1), #service-table td:nth-child(1){width:130px !important; min-width:130px !important;}
+#service-table th:nth-child(2), #service-table td:nth-child(2){width:135px !important; min-width:135px !important;}
+#service-table th:nth-child(3), #service-table td:nth-child(3){width:390px !important; min-width:390px !important; white-space:normal !important;}
+#service-table th:nth-child(4), #service-table td:nth-child(4){width:140px !important; min-width:140px !important;}
+#service-table th:nth-child(5), #service-table td:nth-child(5){width:180px !important; min-width:180px !important;}
+#service-table th:nth-child(6), #service-table td:nth-child(6){width:260px !important; min-width:260px !important;}
+#service-table th:nth-child(7), #service-table td:nth-child(7){width:105px !important; min-width:105px !important; text-align:right;}
+#service-table th:nth-child(8), #service-table td:nth-child(8){width:120px !important; min-width:120px !important;}
+
+/* Enabler activities: keep UNSRM objective compact and give Description more space */
+#enabler-table{
+  min-width:1420px !important;
+}
+#enabler-table th:nth-child(1), #enabler-table td:nth-child(1){width:90px !important; min-width:90px !important;}
+#enabler-table th:nth-child(2), #enabler-table td:nth-child(2){width:120px !important; min-width:120px !important;}
+#enabler-table th:nth-child(3), #enabler-table td:nth-child(3){width:140px !important; min-width:140px !important;}
+#enabler-table th:nth-child(4), #enabler-table td:nth-child(4){width:220px !important; min-width:220px !important;}
+#enabler-table th:nth-child(5), #enabler-table td:nth-child(5){width:135px !important; min-width:135px !important;}
+#enabler-table th:nth-child(6), #enabler-table td:nth-child(6){width:180px !important; min-width:180px !important;}
+#enabler-table th:nth-child(7), #enabler-table td:nth-child(7){width:535px !important; min-width:535px !important; white-space:normal !important;}
+#enabler-table td:nth-child(5) .un-pill{
+  min-width:82px;
+  justify-content:center;
+}
+
+@media(max-width:900px){
+  #county-table{min-width:1550px !important;}
+  #partner-county-table{min-width:1450px !important;}
+  #service-table{min-width:1360px !important;}
+  #enabler-table{min-width:1320px !important;}
+}
+
+
+/* =========================================================
+   Overview page table readability fix
+   Priority Activities with Significant Remaining Funding Needs
+   Give the Activity and funding columns enough room and allow
+   horizontal scrolling instead of squeezing long text.
+========================================================= */
+#panel-overview .un-table-wrap{
+  overflow-x:auto !important;
+  -webkit-overflow-scrolling:touch;
+}
+
+#activity-table{
+  table-layout:fixed !important;
+  min-width:1380px !important;
+}
+
+#activity-table th,
+#activity-table td{
+  line-height:1.45;
+  vertical-align:top;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+
+#activity-table .un-pill{
+  white-space:nowrap !important;
+}
+
+/* Column widths for the overview priority activities table */
+#activity-table th:nth-child(1), #activity-table td:nth-child(1){width:85px !important; min-width:85px !important;}       /* Year */
+#activity-table th:nth-child(2), #activity-table td:nth-child(2){width:120px !important; min-width:120px !important;}     /* Objective */
+#activity-table th:nth-child(3), #activity-table td:nth-child(3){width:360px !important; min-width:360px !important; white-space:normal !important;} /* Activity */
+#activity-table th:nth-child(4), #activity-table td:nth-child(4){width:190px !important; min-width:190px !important;}     /* Achievement / Target */
+#activity-table th:nth-child(5), #activity-table td:nth-child(5){width:100px !important; min-width:100px !important;}     /* Progress */
+#activity-table th:nth-child(6), #activity-table td:nth-child(6){width:185px !important; min-width:185px !important;}     /* Estimated Funding */
+#activity-table th:nth-child(7), #activity-table td:nth-child(7){width:175px !important; min-width:175px !important;}     /* Funding Requirement */
+#activity-table th:nth-child(8), #activity-table td:nth-child(8){width:150px !important; min-width:150px !important;}     /* Remaining Gap */
+#activity-table th:nth-child(9), #activity-table td:nth-child(9){width:115px !important; min-width:115px !important;}     /* Funding Gap % */
+
+@media(max-width:900px){
+  #activity-table{min-width:1280px !important;}
+}
+
+/* Enabler results KPI-style cards */
+.un-enabler-category-groups{
+  display:grid;
+  gap:18px;
+}
+
+.un-enabler-category{
+  border:1px solid var(--un-line);
+  border-radius:18px;
+  padding:14px;
+  background:#fbfdff;
+  box-shadow:none;
+}
+
+.un-enabler-category h4{
+  margin:0 0 12px;
+  color:#1683bd;
+  font-size:1rem;
+  font-weight:900;
+}
+
+.un-enabler-unit-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;
+}
+
+.un-enabler-unit-card{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:20px;
+  padding:16px;
+  min-height:108px;
+  box-shadow:var(--un-shadow);
+  position:relative;
+  overflow:hidden;
+}
+
+.un-enabler-unit-card::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  height:5px;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+}
+
+.un-enabler-unit-card span{
+  display:block;
+  color:var(--un-muted);
+  font-size:.78rem;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  margin:8px 0 8px;
+}
+
+.un-enabler-unit-card strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.55rem;
+  font-weight:950;
+  line-height:1.1;
+}
+
+@media(max-width:700px){
+  .un-enabler-unit-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* Roadmap Objective cards - put (UNSRM X) on its own line */
+.un-objective-code .unsrm-code {
+    display: block;
+    margin-top: 2px;
+    font-size: 0.95em;
+    font-weight: 700;
+}
+/* Donor-friendly enabler KPI descriptions */
+.un-enabler-unit-card p{
+  margin:8px 0 0;
+  color:var(--un-muted);
+  font-size:.82rem;
+  line-height:1.45;
+}
+
+.un-enabler-unit-card-compact{
+  min-height:132px;
+}
+
+
+/* KPI hover and tooltip affordance across Overview and Enablers */
+.un-kpi,
+.un-impact-kpi,
+.un-enabler-unit-card,
+.un-mini-metric,
+.un-objective-card{
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+.un-kpi:hover,
+.un-impact-kpi:hover,
+.un-enabler-unit-card:hover,
+.un-mini-metric:hover,
+.un-objective-card:hover{
+  transform: translateY(-4px);
+  border-color:#7fc9df !important;
+  box-shadow:0 18px 42px rgba(16,39,66,.16) !important;
+  background:#ffffff;
+}
+
+.un-kpi[title],
+.un-impact-kpi[title],
+.un-enabler-unit-card[title],
+.un-mini-metric[title],
+.un-objective-card[title]{
+  cursor:help;
+}
+
+.un-enabler-unit-card:hover::before,
+.un-kpi:hover::before,
+.un-impact-kpi:hover::before{
+  filter:saturate(1.15) brightness(1.05);
+}
+
+
+/* =========================================================
+   Overview KPI layout correction
+   Keep Funding, Key Achievements, Additional Achievements,
+   and Enablers as full-width horizontal sections, not columns.
+========================================================= */
+#panel-overview #kpi-grid.un-kpi-dashboard,
+#panel-overview .un-kpi-grid.un-kpi-dashboard{
+  display:block !important;
+  width:100% !important;
+  margin:18px 0 24px !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-block{
+  display:block !important;
+  width:100% !important;
+  margin:0 0 24px !important;
+  clear:both !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-section-title{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:0 0 12px !important;
+  color:var(--un-blue);
+  font-weight:950;
+  font-size:1.02rem;
+  line-height:1.2;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-section-title::after{
+  content:"";
+  flex:1;
+  height:1px;
+  background:var(--un-line);
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-block-grid{
+  display:grid !important;
+  gap:16px !important;
+  align-items:stretch !important;
+  width:100% !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-funding-grid{
+  grid-template-columns:repeat(2,minmax(240px,1fr)) !important;
+  max-width:760px;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-achievement-grid,
+#panel-overview .un-kpi-dashboard .un-kpi-additional-grid{
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr)) !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi-enabler-grid{
+  grid-template-columns:repeat(3,minmax(220px,1fr)) !important;
+  margin-bottom:18px;
+}
+
+#panel-overview .un-kpi-dashboard .un-kpi{
+  width:100% !important;
+  min-height:150px;
+}
+
+#panel-overview .un-kpi-dashboard .un-enabler-overview-groups{
+  display:grid !important;
+  gap:18px !important;
+  width:100% !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-enabler-category-compact{
+  width:100% !important;
+  margin:0 !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-enabler-unit-grid-compact{
+  display:grid !important;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr)) !important;
+  gap:14px !important;
+}
+
+#panel-overview .un-kpi-dashboard .un-enabler-unit-card-compact{
+  width:100% !important;
+}
+
+@media(max-width:1100px){
+  #panel-overview .un-kpi-dashboard .un-kpi-funding-grid,
+  #panel-overview .un-kpi-dashboard .un-kpi-enabler-grid{
+    grid-template-columns:repeat(2,minmax(220px,1fr)) !important;
+    max-width:none;
+  }
+}
+
+@media(max-width:700px){
+  #panel-overview .un-kpi-dashboard .un-kpi-funding-grid,
+  #panel-overview .un-kpi-dashboard .un-kpi-achievement-grid,
+  #panel-overview .un-kpi-dashboard .un-kpi-additional-grid,
+  #panel-overview .un-kpi-dashboard .un-kpi-enabler-grid,
+  #panel-overview .un-kpi-dashboard .un-enabler-unit-grid-compact{
+    grid-template-columns:1fr !important;
+  }
+}
+
+/* =========================================================
+   Roadmap Objective cards: reported components with expand
+   Replaces single mixed-unit lead metric with transparent
+   component-level values and inline +N more interaction.
+========================================================= */
+.un-objective-card-components{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  min-height:360px;
+}
+
+.un-objective-card-components h4{
+  min-height:72px;
+  margin-bottom:0;
+}
+
+.un-objective-components{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:12px;
+  display:grid;
+  gap:8px;
+}
+
+.un-objective-components-title{
+  color:var(--un-blue);
+  font-weight:950;
+  font-size:.78rem;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  margin-bottom:2px;
+}
+
+.un-objective-component{
+  display:grid;
+  grid-template-columns:24px auto 1fr;
+  align-items:center;
+  gap:8px;
+  color:#274057;
+  font-size:.84rem;
+  line-height:1.3;
+}
+
+.un-objective-component-icon{
+  width:24px;
+  text-align:center;
+  font-size:1rem;
+}
+
+.un-objective-component strong{
+  color:var(--un-blue);
+  font-weight:950;
+  white-space:nowrap;
+}
+
+.un-objective-component span:last-child{
+  font-weight:800;
+}
+
+.un-objective-component-extra{
+  display:none;
+}
+
+.un-objective-components.expanded .un-objective-component-extra{
+  display:grid;
+}
+
+.un-objective-more{
+  justify-self:start;
+  border:0;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:.76rem;
+  font-weight:950;
+  cursor:pointer;
+  margin-top:2px;
+}
+
+.un-objective-more:hover{
+  background:#d8f0eb;
+  color:#084d3e;
+}
+
+.un-objective-component-empty{
+  color:var(--un-muted);
+  font-weight:800;
+  font-size:.84rem;
+  line-height:1.4;
+}
+
+.un-objective-stats-finance{
+  margin-top:auto;
+  grid-template-columns:repeat(3,1fr) !important;
+  border-top:1px solid var(--un-line);
+  padding-top:10px;
+}
+
+.un-objective-stats-finance span{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:9px;
+}
+
+.un-objective-stats-finance strong{
+  display:block;
+  margin-top:3px;
+  font-size:.98rem;
+}
+
+@media(max-width:1300px){
+  .un-objective-stats-finance{
+    grid-template-columns:1fr !important;
+  }
+}
+
+/* Roadmap Progress storytelling redesign inspired by durable-solutions dashboard examples */
+.un-roadmap-snapshot{
+  display:grid;
+  grid-template-columns:1.05fr 1.25fr 1.1fr;
+  gap:18px;
+  align-items:stretch;
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:22px;
+  box-shadow:var(--un-shadow);
+  padding:18px;
+  margin-bottom:18px;
+}
+.un-roadmap-snapshot-left h3{
+  margin:6px 0 8px;
+  color:var(--un-blue);
+  font-size:1.25rem;
+}
+.un-roadmap-snapshot-left p{
+  color:var(--un-muted);
+  line-height:1.55;
+}
+.un-roadmap-snapshot-kpis{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+}
+.un-roadmap-snapshot-kpis div{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+  padding:14px 12px;
+  text-align:center;
+}
+.un-roadmap-snapshot-kpis strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.35rem;
+  font-weight:950;
+}
+.un-roadmap-snapshot-kpis span{
+  display:block;
+  margin-top:4px;
+  color:var(--un-muted);
+  font-size:.72rem;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+.un-roadmap-keyfindings{
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-left:5px solid var(--un-cyan);
+  border-radius:16px;
+  padding:14px;
+  display:grid;
+  gap:8px;
+}
+.un-roadmap-keyfindings-title{
+  color:var(--un-blue);
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-size:.78rem;
+}
+.un-roadmap-keyfinding{
+  color:#274057;
+  font-size:.86rem;
+  line-height:1.35;
+}
+.un-roadmap-story-card{
+  padding:0;
+  overflow:hidden;
+}
+.un-roadmap-story-grid{
+  display:grid;
+  grid-template-columns:300px minmax(0,1fr);
+  gap:0;
+  border-bottom:1px solid var(--un-line);
+}
+.un-roadmap-visual-panel{
+  background:linear-gradient(180deg,#f7fbfd 0%,#eef6fb 100%);
+  border-right:1px solid var(--un-line);
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.un-roadmap-objective-badge{
+  align-self:flex-start;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border:1px solid #cbece4;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:.78rem;
+  font-weight:950;
+}
+.un-roadmap-big-number{
+  color:var(--un-blue);
+  font-size:3rem;
+  line-height:1;
+  font-weight:950;
+  margin-top:4px;
+}
+.un-roadmap-big-label{
+  color:var(--un-muted);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-size:.76rem;
+  font-weight:950;
+}
+.un-roadmap-single-progress{
+  height:12px;
+  background:#ddeaf2;
+  border-radius:999px;
+  overflow:hidden;
+}
+.un-roadmap-single-progress span{
+  display:block;
+  height:100%;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+  border-radius:999px;
+}
+.un-roadmap-funding-lines{
+  display:grid;
+  gap:8px;
+  margin-top:4px;
+}
+.un-roadmap-funding-lines div{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  border-bottom:1px solid #dce8f0;
+  padding-bottom:7px;
+}
+.un-roadmap-funding-lines span{
+  color:#526b83;
+  font-size:.82rem;
+  font-weight:800;
+}
+.un-roadmap-funding-lines strong{
+  color:var(--un-blue);
+  font-weight:950;
+}
+.un-roadmap-status{
+  margin-top:auto;
+  border-radius:14px;
+  padding:10px 12px;
+  font-size:.82rem;
+  font-weight:950;
+  text-align:center;
+}
+.un-roadmap-status.good{background:#e7f7ef;color:#0f7a5b;}
+.un-roadmap-status.mid{background:#fff4da;color:#a26005;}
+.un-roadmap-status.low{background:#fdecec;color:#a04545;}
+.un-roadmap-context-panel{
+  padding:20px;
+  display:grid;
+  gap:16px;
+}
+.un-roadmap-context-header{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:18px;
+  align-items:start;
+}
+.un-roadmap-context-header h3{
+  margin:0 0 7px;
+  color:var(--un-blue);
+  font-size:1.05rem;
+  line-height:1.35;
+}
+.un-roadmap-context-header p{
+  color:#334155;
+  line-height:1.45;
+  font-size:.9rem;
+}
+.un-roadmap-context-kpis{
+  display:grid;
+  grid-template-columns:repeat(2,96px);
+  gap:8px;
+}
+.un-roadmap-context-kpis div{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:10px;
+  text-align:center;
+}
+.un-roadmap-context-kpis strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.15rem;
+  font-weight:950;
+}
+.un-roadmap-context-kpis span{
+  color:var(--un-muted);
+  font-size:.68rem;
+  font-weight:950;
+  text-transform:uppercase;
+}
+.un-roadmap-chip-section{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+.un-roadmap-chip-section > div{
+  background:#fbfdff;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+  padding:12px;
+}
+.un-roadmap-chip-section strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:.82rem;
+  margin-bottom:8px;
+}
+.un-roadmap-chip-wrap{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.un-roadmap-chip,.un-roadmap-more-chip{
+  display:inline-flex;
+  align-items:center;
+  border:1px solid var(--un-line);
+  background:#f7fbfd;
+  color:#425b74;
+  border-radius:999px;
+  padding:5px 8px;
+  font-size:.76rem;
+  font-weight:850;
+}
+.un-roadmap-chip.muted{color:var(--un-muted);}
+.un-roadmap-more-chip{
+  border:0;
+  background:#e8f6f3;
+  color:#0c6b56;
+  cursor:pointer;
+}
+.un-roadmap-more-chip:hover{
+  background:#d7f0ea;
+  color:#075745;
+}
+.un-roadmap-chip-extra{
+  display:none;
+}
+.un-roadmap-chip-wrap.expanded .un-roadmap-chip-extra{
+  display:inline-flex;
+}
+.un-roadmap-insight-panel{
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-left:5px solid var(--un-cyan);
+  border-radius:16px;
+  padding:14px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px 14px;
+}
+.un-roadmap-insight-title{
+  grid-column:1/-1;
+  color:var(--un-blue);
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-size:.78rem;
+}
+.un-roadmap-insight-item{
+  color:#274057;
+  font-size:.86rem;
+  line-height:1.35;
+}
+.un-roadmap-story-card .un-roadmap-visuals{
+  padding:16px 20px 0;
+  margin:0;
+}
+.un-roadmap-details{
+  padding:16px 20px 20px;
+}
+.un-roadmap-details summary{
+  cursor:pointer;
+  color:var(--un-blue);
+  font-weight:950;
+  margin-bottom:12px;
+}
+@media(max-width:1200px){
+  .un-roadmap-snapshot{grid-template-columns:1fr;}
+  .un-roadmap-snapshot-kpis{grid-template-columns:repeat(2,1fr);}
+  .un-roadmap-story-grid{grid-template-columns:1fr;}
+  .un-roadmap-visual-panel{border-right:0;border-bottom:1px solid var(--un-line);}
+  .un-roadmap-context-header{grid-template-columns:1fr;}
+  .un-roadmap-context-kpis{grid-template-columns:repeat(4,1fr);}
+}
+@media(max-width:700px){
+  .un-roadmap-snapshot-kpis,.un-roadmap-chip-section,.un-roadmap-insight-panel,.un-roadmap-context-kpis{grid-template-columns:1fr;}
+  .un-roadmap-big-number{font-size:2.35rem;}
+}
+
+/* UNSRM objective block separation polish */
+#panel-roadmap .un-roadmap-list,
+#roadmap-objective-detail{
+  display:grid;
+  gap:28px;
+}
+
+#panel-roadmap .un-roadmap-story-card{
+  border:1px solid #cbddeb;
+  border-radius:24px;
+  box-shadow:0 16px 42px rgba(16,39,66,.14);
+  overflow:hidden;
+  background:#ffffff;
+  margin:0 0 8px;
+  position:relative;
+}
+
+#panel-roadmap .un-roadmap-story-card::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:6px;
+  background:linear-gradient(180deg,var(--un-cyan),var(--un-teal));
+  z-index:2;
+}
+
+#panel-roadmap .un-roadmap-visual-panel{
+  background:linear-gradient(180deg,#f2f9fc 0%,#e7f3f9 100%);
+}
+
+#panel-roadmap .un-roadmap-objective-badge{
+  font-size:.9rem;
+  padding:8px 14px;
+  box-shadow:0 8px 20px rgba(26,166,122,.18);
+}
+
+#panel-roadmap .un-roadmap-details{
+  background:#ffffff;
+  border-top:1px solid #d7e5ef;
+}
+
+#panel-roadmap .un-roadmap-details > summary{
+  padding-top:14px;
+  font-size:1rem;
+}
+
+#panel-roadmap .un-roadmap-table-tabs{
+  box-shadow:0 8px 24px rgba(16,39,66,.07);
+}
+
+@media(max-width:1200px){
+  #panel-roadmap .un-roadmap-story-card::before{
+    width:4px;
+  }
+}
+
+
+/* Roadmap objective title readability polish */
+.un-roadmap-title-block{
+  display:grid;
+  gap:8px;
+  max-width:980px;
+}
+
+.un-roadmap-title-eyebrow{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+  color:#0b6f91;
+  font-size:.78rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.055em;
+}
+
+.un-roadmap-title-eyebrow strong{
+  display:inline-flex;
+  align-items:center;
+  border-radius:999px;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border:1px solid #cbece4;
+  padding:4px 8px;
+  font-size:.75rem;
+  letter-spacing:.02em;
+}
+
+.un-roadmap-context-header .un-roadmap-title-block h3{
+  margin:0;
+  color:var(--un-blue);
+  font-size:1.08rem;
+  line-height:1.32;
+  font-weight:950;
+}
+
+.un-roadmap-ndso-line{
+  display:grid;
+  gap:5px;
+  padding:9px 11px;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-left:4px solid var(--un-cyan);
+  border-radius:12px;
+  max-width:900px;
+}
+
+.un-roadmap-ndso-line span{
+  color:#0b6f91;
+  font-size:.76rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.045em;
+}
+
+.un-roadmap-ndso-line p{
+  margin:0;
+  color:#334155;
+  font-size:.88rem;
+  line-height:1.42;
+}
+
+/* =========================================================
+   County View polish: clearer snapshot, ranked county cards,
+   and tabbed county activity list
+========================================================= */
+#panel-county #selected-county-snapshot{
+  display:grid !important;
+  grid-template-columns:1fr !important;
+  gap:12px !important;
+}
+
+#panel-county .un-county-snapshot-section{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+  padding:12px;
+}
+
+#panel-county .un-county-selection-block{
+  background:linear-gradient(180deg,#fbfdff,#f2f8fc);
+}
+
+#panel-county .un-county-selection-title{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:10px;
+}
+
+#panel-county .un-county-selection-title strong{
+  color:var(--un-blue);
+  font-size:1.15rem;
+  font-weight:950;
+  line-height:1.2;
+}
+
+#panel-county .un-county-selection-title span{
+  color:var(--un-muted);
+  font-size:.72rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  white-space:nowrap;
+}
+
+#panel-county .un-county-selection-progress{
+  display:grid;
+  grid-template-columns:1fr auto;
+  align-items:center;
+  gap:10px;
+  margin-bottom:8px;
+}
+
+#panel-county .un-county-selection-progress div{
+  height:10px;
+  background:#e3edf5;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+#panel-county .un-county-selection-progress span{
+  display:block;
+  height:100%;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+  border-radius:999px;
+}
+
+#panel-county .un-county-selection-progress strong{
+  color:var(--un-blue);
+  font-weight:950;
+  white-space:nowrap;
+}
+
+#panel-county .un-county-selection-block p{
+  color:#425b74;
+  font-weight:800;
+  margin:0;
+  line-height:1.45;
+}
+
+#panel-county .un-county-snapshot-grid,
+#panel-county .un-county-partners-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+
+#panel-county .un-county-snapshot-grid .un-mini-metric,
+#panel-county .un-county-partners-grid .un-mini-metric{
+  margin:0;
+  min-height:74px;
+}
+
+#panel-county .un-county-card{
+  position:relative;
+  overflow:hidden;
+  padding:14px;
+}
+
+#panel-county .un-county-card::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:5px;
+  background:var(--un-cyan);
+}
+
+#panel-county .un-county-card-good::before{background:var(--un-teal);}
+#panel-county .un-county-card-mid::before{background:var(--un-gold);}
+#panel-county .un-county-card-low::before{background:var(--un-red);}
+
+#panel-county .un-county-rank{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  background:#eef7fb;
+  color:#0b4a63;
+  border:1px solid #cfe0ec;
+  border-radius:999px;
+  padding:3px 8px;
+  font-size:.72rem;
+  font-weight:950;
+  margin-bottom:6px;
+}
+
+#panel-county .un-county-card h3{
+  font-size:1.05rem;
+  margin:0;
+}
+
+#panel-county .un-county-card-metrics{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  margin-top:10px;
+}
+
+#panel-county .un-county-card-metrics div{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:8px;
+}
+
+#panel-county .un-county-card-metrics span{
+  display:block;
+  color:var(--un-muted);
+  font-size:.68rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  margin-bottom:3px;
+}
+
+#panel-county .un-county-card-metrics strong{
+  color:var(--un-blue);
+  font-weight:950;
+  line-height:1.2;
+}
+
+#panel-county .un-county-activity-explorer{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:18px 18px 0 0;
+  border-bottom:0;
+  padding:14px 14px 10px;
+  margin-top:12px;
+}
+
+#panel-county .un-county-activity-header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  flex-wrap:wrap;
+}
+
+#panel-county .un-county-activity-header h3{
+  margin:0 0 4px;
+  color:var(--un-blue);
+  font-size:1rem;
+  font-weight:950;
+}
+
+#panel-county .un-county-activity-header p{
+  margin:0;
+  color:var(--un-muted);
+  line-height:1.4;
+  font-size:.84rem;
+}
+
+#panel-county .un-county-activity-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+
+#panel-county .un-county-activity-tab{
+  border:1px solid #cfe0ec;
+  background:#ffffff;
+  color:#16435f;
+  padding:9px 13px;
+  font-weight:950;
+  font-size:.82rem;
+  cursor:pointer;
+  border-radius:999px;
+  box-shadow:0 2px 8px rgba(16,39,66,.04);
+}
+
+#panel-county .un-county-activity-tab.active{
+  background:var(--un-blue);
+  color:#ffffff;
+  border-color:var(--un-blue);
+  box-shadow:0 8px 18px rgba(17,61,88,.18), inset 0 -3px 0 var(--un-teal);
+}
+
+#panel-county .un-county-activity-note{
+  margin-top:12px;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:9px 12px;
+  color:var(--un-muted);
+  font-size:.82rem;
+  line-height:1.4;
+}
+
+#panel-county .un-county-activity-explorer + .un-table-wrap{
+  border-top-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+}
+
+@media(max-width:700px){
+  #panel-county .un-county-snapshot-grid,
+  #panel-county .un-county-partners-grid,
+  #panel-county .un-county-card-metrics{
+    grid-template-columns:1fr;
+  }
+  #panel-county .un-county-selection-title,
+  #panel-county .un-county-selection-progress,
+  #panel-county .un-county-activity-header{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  #panel-county .un-county-activity-tabs{
+    display:grid;
+    grid-template-columns:1fr;
+    width:100%;
+  }
+}
+
+
+/* =========================================================
+   County View: Roadmap Activity Coverage visual
+   Replaces repetitive county cards with one expandable visual.
+   Keeps existing map/snapshot/table layouts unchanged.
+========================================================= */
+#panel-county #county-profile{
+  display:block !important;
+  margin:22px 0 20px !important;
+}
+
+.un-county-coverage-visual{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:22px;
+  box-shadow:var(--un-shadow);
+  padding:16px;
+  margin-bottom:20px;
+}
+
+.un-county-coverage-header{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:14px;
+}
+
+.un-county-coverage-header h3{
+  margin:0 0 5px;
+  color:var(--un-blue);
+  font-size:1.12rem;
+  font-weight:950;
+}
+
+.un-county-coverage-header p{
+  margin:0;
+  color:var(--un-muted);
+  line-height:1.45;
+  max-width:860px;
+}
+
+.un-county-coverage-header > span{
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:.76rem;
+  font-weight:950;
+  white-space:nowrap;
+}
+
+.un-county-coverage-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px;
+  margin-bottom:12px;
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+}
+
+.un-county-coverage-tab{
+  border:1px solid #cfe0ec;
+  background:#ffffff;
+  color:#16435f;
+  padding:8px 12px;
+  font-weight:950;
+  font-size:.82rem;
+  cursor:pointer;
+  border-radius:999px;
+  box-shadow:0 2px 8px rgba(16,39,66,.04);
+}
+
+.un-county-coverage-tab.active{
+  background:var(--un-blue);
+  color:#ffffff;
+  border-color:var(--un-blue);
+  box-shadow:0 8px 18px rgba(17,61,88,.18), inset 0 -3px 0 var(--un-teal);
+}
+
+.un-county-coverage-tabpanel{
+  display:none;
+}
+
+.un-county-coverage-tabpanel.active{
+  display:block;
+}
+
+.un-county-coverage-list{
+  display:grid;
+  gap:10px;
+}
+
+.un-county-coverage-row{
+  border:1px solid #d6e3ee;
+  border-radius:16px;
+  background:#fbfdff;
+  overflow:hidden;
+}
+
+.un-county-coverage-row.expanded{
+  background:#ffffff;
+  box-shadow:0 10px 24px rgba(16,39,66,.08);
+}
+
+.un-county-coverage-main{
+  width:100%;
+  border:0;
+  background:transparent;
+  display:grid;
+  grid-template-columns:28px 150px minmax(180px,1fr) 190px 56px;
+  gap:12px;
+  align-items:center;
+  padding:12px 14px;
+  color:#0f2437;
+  cursor:pointer;
+  text-align:left;
+}
+
+.un-county-coverage-main:hover{
+  background:#f3f8fc;
+}
+
+.un-county-coverage-chevron{
+  color:var(--un-blue);
+  font-weight:950;
+  font-size:.84rem;
+}
+
+.un-county-coverage-name{
+  color:var(--un-blue);
+  font-weight:950;
+}
+
+.un-county-coverage-bar{
+  height:12px;
+  background:#e5eef5;
+  border-radius:999px;
+  overflow:hidden;
+  position:relative;
+}
+
+.un-county-coverage-bar span{
+  display:block;
+  height:100%;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+  border-radius:999px;
+}
+
+.un-county-coverage-count{
+  display:grid;
+  gap:2px;
+}
+
+.un-county-coverage-count strong{
+  color:var(--un-blue);
+  font-weight:950;
+}
+
+.un-county-coverage-count small{
+  color:var(--un-muted);
+  font-size:.68rem;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+}
+
+.un-county-coverage-pct{
+  justify-self:end;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:5px 8px;
+  font-weight:950;
+  font-size:.78rem;
+}
+
+.un-county-coverage-pct.pending{
+  background:#fff4da;
+  color:#a26005;
+}
+
+.un-county-coverage-detail{
+  display:none;
+  border-top:1px solid var(--un-line);
+  background:#ffffff;
+  padding:12px 14px 14px;
+}
+
+.un-county-coverage-detail.pending{
+  background:#fffdf8;
+}
+
+.un-county-coverage-row.expanded .un-county-coverage-detail{
+  display:block;
+}
+
+.un-county-coverage-detail-title{
+  color:var(--un-blue);
+  font-weight:950;
+  margin-bottom:10px;
+}
+
+.un-county-coverage-detail-title::after{
+  content:"Unit progress bars below show achieved value against target for each activity.";
+  display:block;
+  margin-top:4px;
+  color:var(--un-muted);
+  font-size:.76rem;
+  font-weight:800;
+  line-height:1.35;
+}
+
+.un-county-coverage-detail.pending .un-county-coverage-detail-title::after{
+  content:"These are planned activities with targets or requirements but no reported achievement/funding under the selected filters.";
+}
+
+.un-county-coverage-activities{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+  gap:10px;
+}
+
+.un-county-coverage-activity{
+  display:grid;
+  grid-template-columns:30px minmax(0,1fr) 150px;
+  gap:10px;
+  align-items:center;
+  border:1px solid #e2ebf3;
+  background:#f8fbfe;
+  border-radius:14px;
+  padding:10px;
+}
+
+.un-county-coverage-detail.pending .un-county-coverage-activity{
+  background:#fffaf0;
+  border-color:#f2dfb9;
+}
+
+.un-county-coverage-icon{
+  font-size:1.05rem;
+  text-align:center;
+}
+
+.un-county-coverage-activity-name{
+  color:#0f2437;
+  font-weight:850;
+  line-height:1.35;
+}
+
+.un-county-coverage-activity-meta{
+  color:var(--un-muted);
+  font-size:.78rem;
+  font-weight:800;
+  margin-top:3px;
+}
+
+.un-county-coverage-mini{
+  display:grid;
+  grid-template-columns:1fr 42px;
+  align-items:center;
+  gap:8px;
+}
+
+.un-county-coverage-mini::before{
+  content:"Unit progress";
+  grid-column:1 / -1;
+  color:var(--un-muted);
+  font-size:.68rem;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  margin-bottom:2px;
+}
+
+.un-county-coverage-mini strong{
+  color:var(--un-blue);
+  text-align:right;
+  font-weight:950;
+}
+
+.un-county-coverage-mini-bar{
+  height:8px;
+  background:#e5eef5;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+.un-county-coverage-mini-bar span{
+  display:block;
+  height:100%;
+  border-radius:999px;
+  background:#1aa67a;
+}
+
+.un-county-coverage-mini-bar span.low{background:#d25d5d;}
+.un-county-coverage-mini-bar span.mid{background:#f3b23c;}
+.un-county-coverage-mini-bar span.good{background:#1aa67a;}
+
+.un-county-coverage-pending-note{
+  background:#fff4da;
+  color:#a26005;
+  border-radius:999px;
+  padding:6px 9px;
+  font-size:.72rem;
+  font-weight:950;
+  text-align:center;
+}
+
+.un-county-coverage-empty{
+  color:var(--un-muted);
+  font-weight:800;
+  background:#f7fbfd;
+  border:1px dashed #cbd8e6;
+  border-radius:12px;
+  padding:12px;
+}
+
+@media(max-width:900px){
+  .un-county-coverage-header{
+    display:grid;
+  }
+  .un-county-coverage-main{
+    grid-template-columns:24px 1fr 70px;
+    gap:8px;
+  }
+  .un-county-coverage-bar,
+  .un-county-coverage-count{
+    grid-column:2 / -1;
+  }
+  .un-county-coverage-pct{
+    grid-column:3;
+    grid-row:1;
+  }
+  .un-county-coverage-activities{
+    grid-template-columns:1fr;
+  }
+  .un-county-coverage-activity{
+    grid-template-columns:28px minmax(0,1fr);
+  }
+  .un-county-coverage-mini,
+  .un-county-coverage-pending-note{
+    grid-column:2 / -1;
+  }
+}
+
+/* County View final safeguard: keep coverage visual full-width only on County tab.
+   This overrides the original .un-county-grid class without touching Roadmap Progress. */
+#panel-county .un-county-coverage-holder,
+#panel-county #county-profile.un-county-coverage-holder,
+#panel-county #county-profile{
+  display:block !important;
+  width:100% !important;
+  max-width:none !important;
+  grid-template-columns:none !important;
+  gap:0 !important;
+  margin:22px 0 20px !important;
+}
+
+#panel-county .un-county-coverage-holder > .un-county-coverage-visual,
+#panel-county #county-profile > .un-county-coverage-visual{
+  width:100% !important;
+  max-width:none !important;
+  box-sizing:border-box !important;
+}
+
+/* =========================================================
+   County snapshot compact tabs fix
+   Scoped only to County View so Roadmap Progress is untouched.
+========================================================= */
+#panel-county #selected-county-snapshot .un-county-snapshot-tabs{
+  grid-column:1 / -1;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-radius:16px 16px 0 0;
+  padding:10px 10px 8px;
+  margin-bottom:-12px;
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tab{
+  border:1px solid #cfe0ec;
+  background:#ffffff;
+  color:#16435f;
+  padding:8px 13px;
+  font-weight:950;
+  font-size:.82rem;
+  cursor:pointer;
+  border-radius:999px;
+  box-shadow:0 2px 8px rgba(16,39,66,.04);
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tab.active{
+  background:var(--un-blue);
+  color:#ffffff;
+  border-color:var(--un-blue);
+  box-shadow:0 8px 18px rgba(17,61,88,.18), inset 0 -3px 0 var(--un-teal);
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel{
+  grid-column:1 / -1;
+  display:none;
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-top:0;
+  border-radius:0 0 16px 16px;
+  padding:12px;
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel.active{
+  display:block;
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-objectives-box,
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-orgs-box,
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-impl-orgs-box,
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-activities-box{
+  margin:0 0 10px;
+  background:#fbfdff;
+}
+
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-impl-orgs-box:last-child,
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-activities-box:last-child,
+#panel-county #selected-county-snapshot .un-county-snapshot-tabpanel .un-county-objectives-box:last-child{
+  margin-bottom:0;
+}
+
+#panel-county #selected-county-snapshot .un-county-activities-box{
+  max-height:230px;
+  overflow-y:auto;
+}
+
+@media(max-width:700px){
+  #panel-county #selected-county-snapshot .un-county-snapshot-tabs{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+}
+
+
+/* =========================================================
+   County View - place Map Guide below the map card
+   Scoped only to County View; does not affect Roadmap Progress.
+========================================================= */
+#panel-county .un-county-map-guide-relocated{
+  margin-top:14px;
+  padding:12px;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  background:#fbfdff;
+}
+
+#panel-county .un-county-map-guide-relocated h4{
+  margin:0 0 8px;
+  color:var(--un-blue);
+}
+
+#panel-county .un-county-map-guide-relocated div{
+  margin-bottom:6px;
+}
+
+/* =========================================================
+   County View - final County Activity List-only refinements
+   Scope: County Activity List table and county map guide only.
+========================================================= */
+#panel-county .un-county-map-guide-relocated{
+  margin-top:16px;
+  padding-top:14px;
+  border-top:1px solid var(--un-line);
+  width:100%;
+}
+
+#panel-county .un-county-table-search{
+  display:block;
+  margin-top:12px;
+}
+
+#panel-county .un-county-table-search > span{
+  display:block;
+  margin-bottom:7px;
+  color:var(--un-blue);
+  font-size:.78rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+
+#panel-county .un-county-table-search > div{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:8px;
+}
+
+#panel-county #county-activity-search{
+  width:100%;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:11px 12px;
+  background:#f8fbff;
+  color:var(--un-ink);
+  font-weight:800;
+}
+
+#panel-county #county-activity-search-clear{
+  border:0;
+  background:#e9f4f8;
+  color:#0b4a63;
+  border-radius:12px;
+  padding:0 16px;
+  font-weight:950;
+  cursor:pointer;
+}
+
+#panel-county .un-county-activity-table{
+  table-layout:fixed !important;
+}
+
+#panel-county .un-county-activity-table-reported{
+  min-width:1480px !important;
+}
+
+#panel-county .un-county-activity-table-reported th:nth-child(1),
+#panel-county .un-county-activity-table-reported td:nth-child(1){width:120px !important;min-width:120px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(2),
+#panel-county .un-county-activity-table-reported td:nth-child(2){width:95px !important;min-width:95px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(3),
+#panel-county .un-county-activity-table-reported td:nth-child(3){width:390px !important;min-width:390px !important;white-space:normal !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(4),
+#panel-county .un-county-activity-table-reported td:nth-child(4){width:140px !important;min-width:140px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(5),
+#panel-county .un-county-activity-table-reported td:nth-child(5),
+#panel-county .un-county-activity-table-reported th:nth-child(6),
+#panel-county .un-county-activity-table-reported td:nth-child(6){width:105px !important;min-width:105px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(7),
+#panel-county .un-county-activity-table-reported td:nth-child(7),
+#panel-county .un-county-activity-table-reported th:nth-child(8),
+#panel-county .un-county-activity-table-reported td:nth-child(8){width:165px !important;min-width:165px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(9),
+#panel-county .un-county-activity-table-reported td:nth-child(9){width:145px !important;min-width:145px !important;}
+#panel-county .un-county-activity-table-reported th:nth-child(10),
+#panel-county .un-county-activity-table-reported td:nth-child(10){width:150px !important;min-width:150px !important;}
+
+#panel-county .un-county-activity-table-planned{
+  min-width:1120px !important;
+}
+
+#panel-county .un-county-activity-table-planned th:nth-child(1),
+#panel-county .un-county-activity-table-planned td:nth-child(1){width:130px !important;min-width:130px !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(2),
+#panel-county .un-county-activity-table-planned td:nth-child(2){width:110px !important;min-width:110px !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(3),
+#panel-county .un-county-activity-table-planned td:nth-child(3){width:430px !important;min-width:430px !important;white-space:normal !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(4),
+#panel-county .un-county-activity-table-planned td:nth-child(4){width:150px !important;min-width:150px !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(5),
+#panel-county .un-county-activity-table-planned td:nth-child(5){width:130px !important;min-width:130px !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(6),
+#panel-county .un-county-activity-table-planned td:nth-child(6){width:180px !important;min-width:180px !important;}
+#panel-county .un-county-activity-table-planned th:nth-child(7),
+#panel-county .un-county-activity-table-planned td:nth-child(7){width:150px !important;min-width:150px !important;}
+
+@media(max-width:700px){
+  #panel-county .un-county-table-search > div{
+    grid-template-columns:1fr;
+  }
+}
+
+/* =========================================================
+   Partner Mapping: remove duplicated KPIs from snapshot
+   KPIs stay only in the top Partner Footprint row.
+========================================================= */
+#panel-partners .un-partner-footprint-row{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:16px;
+  margin:0 0 18px;
+}
+
+#panel-partners .un-partner-footprint-card{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:20px;
+  padding:16px;
+  box-shadow:var(--un-shadow);
+  position:relative;
+  overflow:hidden;
+  min-height:78px;
+}
+
+#panel-partners .un-partner-footprint-card::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  height:5px;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+}
+
+#panel-partners .un-partner-footprint-card strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.55rem;
+  font-weight:950;
+  line-height:1.1;
+  margin-top:6px;
+}
+
+#panel-partners .un-partner-footprint-card span{
+  display:block;
+  margin-top:7px;
+  color:var(--un-muted);
+  font-size:.76rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.045em;
+}
+
+#panel-partners #selected-partner-snapshot{
+  display:grid !important;
+  grid-template-columns:1fr !important;
+  gap:12px !important;
+}
+
+#panel-partners .un-partner-snapshot-selection{
+  grid-column:1 / -1;
+  background:linear-gradient(180deg,#fbfdff,#f2f8fc);
+  border:1px solid var(--un-line);
+  border-radius:16px;
+  padding:14px 16px;
+}
+
+#panel-partners .un-partner-snapshot-selection strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.12rem;
+  font-weight:950;
+  line-height:1.2;
+}
+
+#panel-partners .un-partner-snapshot-selection span{
+  display:block;
+  margin-top:3px;
+  color:var(--un-muted);
+  font-size:.72rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+
+#panel-partners .un-partner-snapshot-tabs{
+  grid-column:1 / -1;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding:10px;
+  background:#f3f8fc;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+}
+
+#panel-partners .un-partner-snapshot-tabs .un-county-snapshot-tab{
+  border:1px solid #cfe0ec;
+  background:#ffffff;
+  color:#16435f;
+  padding:8px 12px;
+  font-weight:950;
+  font-size:.82rem;
+  cursor:pointer;
+  border-radius:999px;
+  box-shadow:0 2px 8px rgba(16,39,66,.04);
+}
+
+#panel-partners .un-partner-snapshot-tabs .un-county-snapshot-tab.active{
+  background:var(--un-blue);
+  color:#ffffff;
+  border-color:var(--un-blue);
+  box-shadow:0 8px 18px rgba(17,61,88,.18), inset 0 -3px 0 var(--un-teal);
+}
+
+#panel-partners #selected-partner-snapshot [data-partner-snapshot-panel]{
+  grid-column:1 / -1;
+  display:none;
+}
+
+#panel-partners #selected-partner-snapshot [data-partner-snapshot-panel].active{
+  display:block;
+}
+
+#panel-partners .un-partner-map-guide-relocated{
+  margin-top:16px;
+  padding-top:14px;
+  border-top:1px solid var(--un-line);
+  width:100%;
+}
+
+@media(max-width:1100px){
+  #panel-partners .un-partner-footprint-row{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media(max-width:700px){
+  #panel-partners .un-partner-footprint-row{
+    grid-template-columns:1fr;
+  }
+  #panel-partners .un-partner-snapshot-tabs{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+}
+
+/* =========================================================
+   Partner Mapping: Implementing Partner Footprint visual
+   Replaces the old Service coverage by county table with
+   partner-focused cards.
+========================================================= */
+#partner-footprint-card.un-card{
+  padding:18px;
+}
+
+.un-partner-footprint-visual{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+  gap:16px;
+}
+
+.un-partner-footprint-item{
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-radius:20px;
+  padding:16px;
+  box-shadow:0 10px 26px rgba(16,39,66,.08);
+  position:relative;
+  overflow:hidden;
+}
+
+.un-partner-footprint-item::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  height:5px;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+}
+
+.un-partner-footprint-top{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+  margin:6px 0 12px;
+}
+
+.un-partner-footprint-label{
+  color:var(--un-muted);
+  font-size:.7rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  margin-bottom:4px;
+}
+
+.un-partner-footprint-top h4{
+  margin:0;
+  color:var(--un-blue);
+  font-size:1.05rem;
+  line-height:1.25;
+  font-weight:950;
+}
+
+.un-partner-footprint-badge{
+  background:#fff7e6;
+  color:#8a5a00;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:.75rem;
+  font-weight:950;
+  white-space:nowrap;
+}
+
+.un-partner-footprint-metrics{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.un-partner-footprint-metrics div{
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:14px;
+  padding:10px;
+}
+
+.un-partner-footprint-metrics strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:1.15rem;
+  font-weight:950;
+}
+
+.un-partner-footprint-metrics span{
+  color:var(--un-muted);
+  font-size:.68rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+}
+
+.un-partner-footprint-section{
+  border-top:1px solid #e6eef5;
+  padding-top:11px;
+  margin-top:11px;
+}
+
+.un-partner-footprint-section > strong{
+  display:block;
+  color:var(--un-blue);
+  font-size:.8rem;
+  font-weight:950;
+  margin-bottom:8px;
+}
+
+.un-partner-footprint-chipwrap{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.un-partner-county-chip,
+.un-county-org-pills-chip,
+.un-partner-objective-chip{
+  display:inline-flex;
+  align-items:center;
+  border-radius:999px;
+  padding:5px 9px;
+  font-size:.76rem;
+  font-weight:900;
+}
+
+.un-partner-county-chip{
+  background:#eef7fb;
+  color:#0b4a63;
+}
+
+.un-county-org-pills-chip{
+  background:#eef7fb;
+  color:#0b4a63;
+  border:1px solid #d6e8f0;
+}
+
+.un-partner-objective-chip{
+  background:#e8f6f3;
+  color:#0c6b56;
+}
+
+.un-partner-footprint-activities ul{
+  margin:0;
+  padding-left:18px;
+  display:grid;
+  gap:7px;
+}
+
+.un-partner-footprint-activities li{
+  color:#0f2437;
+  font-weight:750;
+  line-height:1.35;
+}
+
+.un-partner-footprint-extra{
+  display:none;
+}
+
+.un-partner-footprint-activities.expanded .un-partner-footprint-extra{
+  display:list-item;
+}
+
+.un-partner-footprint-more{
+  border:0;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:.76rem;
+  font-weight:950;
+  cursor:pointer;
+  margin-top:9px;
+}
+
+.un-partner-footprint-more:hover{
+  background:#d7f0ea;
+}
+
+.un-partner-footprint-empty{
+  color:var(--un-muted);
+  font-weight:800;
+  margin:0;
+}
+
+@media(max-width:700px){
+  .un-partner-footprint-visual,
+  .un-partner-footprint-metrics{
+    grid-template-columns:1fr;
+  }
+  .un-partner-footprint-top{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  .un-partner-footprint-badge{
+    justify-self:start;
+  }
+}
+
+
+/* =========================================================
+   Partner Footprint compact card refinement
+   Smaller typography + compact summary line instead of KPI boxes
+========================================================= */
+#partner-footprint-card.un-card{
+  padding:16px !important;
+}
+
+#partner-footprint-card .un-card-header{
+  margin-bottom:12px !important;
+}
+
+#partner-footprint-card .un-card-header h3{
+  font-size:1.02rem !important;
+  margin-bottom:5px !important;
+}
+
+#partner-footprint-card .un-card-header p{
+  font-size:.82rem !important;
+  line-height:1.4 !important;
+}
+
+.un-partner-footprint-visual{
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) !important;
+  gap:14px !important;
+}
+
+.un-partner-footprint-item{
+  padding:13px !important;
+  border-radius:17px !important;
+  box-shadow:0 8px 22px rgba(16,39,66,.075) !important;
+}
+
+.un-partner-footprint-item::before{
+  height:4px !important;
+}
+
+.un-partner-footprint-top{
+  margin:5px 0 9px !important;
+  gap:9px !important;
+}
+
+.un-partner-footprint-label{
+  font-size:.62rem !important;
+  margin-bottom:3px !important;
+}
+
+.un-partner-footprint-top h4{
+  font-size:.88rem !important;
+  line-height:1.22 !important;
+  font-weight:950 !important;
+}
+
+.un-partner-footprint-badge{
+  padding:4px 8px !important;
+  font-size:.64rem !important;
+}
+
+.un-partner-footprint-metrics{
+  display:none !important;
+}
+
+.un-partner-footprint-summary{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 8px;
+  align-items:center;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:8px 9px;
+  margin:0 0 10px;
+  color:#425b74;
+  font-size:.72rem;
+  font-weight:900;
+  line-height:1.25;
+}
+
+.un-partner-footprint-summary span{
+  white-space:nowrap;
+}
+
+.un-partner-footprint-section{
+  padding-top:8px !important;
+  margin-top:8px !important;
+}
+
+.un-partner-footprint-section > strong{
+  font-size:.72rem !important;
+  margin-bottom:6px !important;
+  line-height:1.2 !important;
+}
+
+.un-partner-footprint-chipwrap{
+  gap:4px !important;
+}
+
+.un-partner-county-chip,
+.un-county-org-pills-chip,
+.un-partner-objective-chip{
+  padding:3px 7px !important;
+  font-size:.66rem !important;
+  line-height:1.15 !important;
+}
+
+.un-partner-footprint-activities ul{
+  gap:5px !important;
+  padding-left:16px !important;
+}
+
+.un-partner-footprint-activities li{
+  font-size:.73rem !important;
+  line-height:1.3 !important;
+  font-weight:750 !important;
+}
+
+.un-partner-footprint-more{
+  padding:4px 8px !important;
+  font-size:.68rem !important;
+  margin-top:7px !important;
+}
+
+.un-partner-footprint-empty{
+  font-size:.74rem !important;
+}
+
+@media(max-width:700px){
+  .un-partner-footprint-summary span{
+    white-space:normal;
+  }
+}
+
+
+/* Partner Mapping: hide removed row-by-row objective-indicator table */
+#panel-partners #service-table{
+  display:none !important;
+}
+#panel-partners .un-card:has(#service-table){
+  display:none !important;
+}
+
+
+/* Partner Footprint cards: clickable filter behavior */
+#partner-footprint-card .un-partner-footprint-item{
+  cursor:pointer;
+  transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+#partner-footprint-card .un-partner-footprint-item:hover{
+  transform:translateY(-3px);
+  border-color:#7fc9df !important;
+  box-shadow:0 16px 36px rgba(16,39,66,.14) !important;
+}
+
+#partner-footprint-card .un-partner-footprint-item.selected{
+  border-color:var(--un-teal) !important;
+  box-shadow:0 18px 42px rgba(26,166,122,.20) !important;
+  background:linear-gradient(180deg,#ffffff 0%,#f5fffb 100%);
+}
+
+#partner-footprint-card .un-partner-footprint-item.selected::after{
+  content:"Selected";
+  position:absolute;
+  top:10px;
+  right:10px;
+  border-radius:999px;
+  padding:3px 8px;
+  background:#dff6ee;
+  color:#00664f;
+  font-size:.68rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+}
+
+#partner-footprint-card .un-partner-footprint-more{
+  cursor:pointer;
+}
+
+
+/* =========================================================
+   Enablers page upgrade: KPI strip, overview-style
+   achievement cards, Partner Mapping-style snapshot,
+   objective contribution, and monthly trend.
+========================================================= */
+#panel-enablers #enabler-top-kpi-host{
+  margin:0 0 18px;
+}
+
+#panel-enablers .un-enabler-top-kpis{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(180px,1fr));
+  gap:16px;
+}
+
+#panel-enablers #selected-enabler-snapshot{
+  display:grid !important;
+  grid-template-columns:1fr !important;
+  gap:12px !important;
+}
+
+#panel-enablers #selected-enabler-snapshot .un-mini-metric{
+  display:block !important;
+}
+
+#panel-enablers .un-enabler-selection-card,
+#panel-enablers .un-enabler-snapshot-section{
+  grid-column:1 / -1;
+  background:#f7fbfd;
+  border:1px solid var(--un-line);
+  border-radius:16px;
+  padding:12px;
+}
+
+#panel-enablers .un-enabler-selection-card{
+  background:linear-gradient(180deg,#fbfdff,#f2f8fc);
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:12px;
+}
+
+#panel-enablers .un-enabler-selection-card strong{
+  color:var(--un-blue);
+  font-size:1.12rem;
+  font-weight:950;
+  line-height:1.2;
+}
+
+#panel-enablers .un-enabler-selection-card span{
+  color:var(--un-muted);
+  font-size:.72rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  white-space:nowrap;
+}
+
+#panel-enablers .un-enabler-achievement-lines{
+  color:#274057;
+  line-height:1.55;
+  font-weight:800;
+  font-size:.88rem;
+}
+
+#panel-enablers .un-enabler-top-activities ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:grid;
+  gap:8px;
+}
+
+#panel-enablers .un-enabler-top-activities li{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:10px;
+  align-items:start;
+  color:#0f2437;
+  line-height:1.35;
+  font-weight:750;
+}
+
+#panel-enablers .un-enabler-top-activities li strong{
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:3px 8px;
+  font-size:.74rem;
+  font-weight:950;
+  white-space:nowrap;
+}
+
+#panel-enablers .un-enabler-extra-activity,
+#panel-enablers .un-enabler-extra-achievement{
+  display:none;
+}
+
+#panel-enablers .expanded .un-enabler-extra-activity{
+  display:grid;
+}
+
+#panel-enablers .expanded .un-enabler-extra-achievement{
+  display:block;
+}
+
+#panel-enablers .un-enabler-more{
+  border:0;
+  background:#e8f6f3;
+  color:#0c6b56;
+  border-radius:999px;
+  padding:7px 11px;
+  margin-top:10px;
+  font-size:.78rem;
+  font-weight:950;
+  cursor:pointer;
+}
+
+#panel-enablers .un-enabler-more:hover{
+  background:#d8f0eb;
+  color:#084d3e;
+}
+
+#panel-enablers .un-enabler-category-groups{
+  display:grid;
+  gap:18px;
+}
+
+#panel-enablers .un-enabler-category{
+  border:1px solid var(--un-line);
+  border-radius:18px;
+  padding:14px;
+  background:#fbfdff;
+}
+
+#panel-enablers .un-enabler-unit-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;
+}
+
+#panel-enablers .un-enabler-unit-card span{
+  display:flex;
+  align-items:flex-start;
+  gap:7px;
+}
+
+#panel-enablers .un-enabler-unit-icon{
+  font-size:1rem;
+  line-height:1;
+  flex:0 0 auto;
+}
+
+#panel-enablers .un-enabler-charts-host{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  margin:18px 0 20px;
+}
+
+#panel-enablers .un-enabler-chart-card{
+  margin-bottom:0;
+}
+
+#panel-enablers .un-enabler-chart-card p{
+  margin:0 0 14px;
+}
+
+#panel-enablers .un-enabler-bars{
+  display:grid;
+  gap:11px;
+}
+
+#panel-enablers .un-enabler-bar-row{
+  display:grid;
+  grid-template-columns:92px minmax(0,1fr) 48px;
+  gap:10px;
+  align-items:center;
+}
+
+#panel-enablers .un-enabler-bar-row strong{
+  color:var(--un-blue);
+  font-weight:950;
+}
+
+#panel-enablers .un-enabler-bar-row div{
+  height:12px;
+  background:#e5eef5;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+#panel-enablers .un-enabler-bar-row div span{
+  display:block;
+  height:100%;
+  background:linear-gradient(90deg,var(--un-cyan),var(--un-teal));
+  border-radius:999px;
+}
+
+#panel-enablers .un-enabler-bar-row b{
+  color:var(--un-blue);
+  font-weight:950;
+  text-align:right;
+}
+
+#panel-enablers .un-enabler-month-bars{
+  min-height:170px;
+  display:flex;
+  align-items:end;
+  gap:12px;
+  padding:12px 4px 0;
+  overflow-x:auto;
+}
+
+#panel-enablers .un-enabler-month{
+  min-width:42px;
+  display:grid;
+  grid-template-rows:1fr auto auto;
+  justify-items:center;
+  gap:5px;
+  color:var(--un-muted);
+}
+
+#panel-enablers .un-enabler-month-bar{
+  width:28px;
+  height:120px;
+  background:#e5eef5;
+  border-radius:999px;
+  overflow:hidden;
+  display:flex;
+  align-items:end;
+}
+
+#panel-enablers .un-enabler-month-bar span{
+  width:100%;
+  display:block;
+  background:linear-gradient(180deg,var(--un-cyan),var(--un-teal));
+  border-radius:999px 999px 0 0;
+}
+
+#panel-enablers .un-enabler-month strong{
+  color:var(--un-blue);
+  font-weight:950;
+  font-size:.86rem;
+}
+
+#panel-enablers .un-enabler-month small{
+  color:var(--un-muted);
+  font-weight:900;
+  text-transform:uppercase;
+  font-size:.68rem;
+}
+
+#panel-enablers .un-map-legend.un-enabler-map-guide-relocated{
+  margin-top:14px;
+}
+
+@media(max-width:1100px){
+  #panel-enablers .un-enabler-top-kpis{
+    grid-template-columns:repeat(2,minmax(180px,1fr));
+  }
+  #panel-enablers .un-enabler-charts-host{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:700px){
+  #panel-enablers .un-enabler-top-kpis,
+  #panel-enablers .un-enabler-unit-grid{
+    grid-template-columns:1fr;
+  }
+  #panel-enablers .un-enabler-selection-card,
+  #panel-enablers .un-enabler-top-activities li,
+  #panel-enablers .un-enabler-bar-row{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  #panel-enablers .un-enabler-bar-row b{
+    text-align:left;
+  }
+}
+
+
+/* =========================================================
+   Enablers: move Top Enabling Activities from snapshot into
+   the Enabling Activities table area.
+========================================================= */
+#panel-enablers .un-enabler-top-activities{
+  display:none !important;
+}
+
+#panel-enablers .un-enabler-table-toolbar{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:16px;
+  background:#ffffff;
+  border:1px solid var(--un-line);
+  border-bottom:0;
+  border-radius:18px 18px 0 0;
+  padding:14px;
+  margin-top:12px;
+}
+
+#panel-enablers .un-enabler-table-toolbar + .un-table-wrap{
+  border-top-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+}
+
+#panel-enablers .un-enabler-table-toolbar-title{
+  display:grid;
+  gap:4px;
+}
+
+#panel-enablers .un-enabler-table-toolbar-title strong{
+  color:var(--un-blue);
+  font-size:1rem;
+  font-weight:950;
+}
+
+#panel-enablers .un-enabler-table-toolbar-title span{
+  color:var(--un-muted);
+  font-size:.82rem;
+  font-weight:800;
+}
+
+#panel-enablers .un-enabler-table-actions{
+  display:flex;
+  align-items:flex-end;
+  gap:12px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+#panel-enablers .un-enabler-table-toggle{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+
+#panel-enablers .un-enabler-table-toggle button{
+  border:1px solid #cfe0ec;
+  background:#ffffff;
+  color:#16435f;
+  padding:9px 13px;
+  font-weight:950;
+  font-size:.82rem;
+  cursor:pointer;
+  border-radius:999px;
+}
+
+#panel-enablers .un-enabler-table-toggle button.active{
+  background:var(--un-blue);
+  color:#ffffff;
+  border-color:var(--un-blue);
+  box-shadow:0 8px 18px rgba(17,61,88,.18), inset 0 -3px 0 var(--un-teal);
+}
+
+#panel-enablers .un-enabler-table-search{
+  display:grid;
+  gap:5px;
+  min-width:280px;
+}
+
+#panel-enablers .un-enabler-table-search span{
+  color:var(--un-muted);
+  font-size:.72rem;
+  font-weight:950;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+}
+
+#panel-enablers .un-enabler-table-search input{
+  border:1px solid var(--un-line);
+  border-radius:12px;
+  padding:9px 11px;
+  background:#f8fbff;
+  color:var(--un-ink);
+  font-weight:750;
+}
+
+#panel-enablers .un-enabler-count-badge,
+#panel-enablers .un-enabler-inline-count{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:999px;
+  background:#e8f6f3;
+  color:#0c6b56;
+  padding:4px 8px;
+  font-size:.74rem;
+  font-weight:950;
+  white-space:nowrap;
+}
+
+#panel-enablers .un-enabler-inline-count{
+  margin-left:8px;
+  vertical-align:middle;
+}
+
+#panel-enablers .un-enabler-table-grouped{
+  min-width:1520px !important;
+}
+
+#panel-enablers .un-enabler-table-grouped th:nth-child(1),
+#panel-enablers .un-enabler-table-grouped td:nth-child(1){width:430px !important; min-width:430px !important; white-space:normal !important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(2),
+#panel-enablers .un-enabler-table-grouped td:nth-child(2){width:95px !important; min-width:95px !important; text-align:center;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(3),
+#panel-enablers .un-enabler-table-grouped td:nth-child(3){width:180px !important; min-width:180px !important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(4),
+#panel-enablers .un-enabler-table-grouped td:nth-child(4){width:300px !important; min-width:300px !important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(5),
+#panel-enablers .un-enabler-table-grouped td:nth-child(5){width:190px !important; min-width:190px !important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(6),
+#panel-enablers .un-enabler-table-grouped td:nth-child(6){width:325px !important; min-width:325px !important; white-space:normal !important;}
+
+@media(max-width:900px){
+  #panel-enablers .un-enabler-table-toolbar{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+  #panel-enablers .un-enabler-table-actions{
+    justify-content:stretch;
+  }
+  #panel-enablers .un-enabler-table-search{
+    min-width:0;
+    width:100%;
+  }
+  #panel-enablers .un-enabler-table-toggle,
+  #panel-enablers .un-enabler-table-toggle button{
+    width:100%;
+  }
+}
+
+
+/* Enablers table wording cleanup */
+.un-enabler-table-toolbar-title strong{display:none!important;}
+.un-enabler-table-toolbar-title span{font-weight:900;color:#425b74;}
+#panel-enablers .un-enabler-table-grouped{min-width:1280px!important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(1),
+#panel-enablers .un-enabler-table-grouped td:nth-child(1){width:32%!important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(2),
+#panel-enablers .un-enabler-table-grouped td:nth-child(2){width:18%!important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(3),
+#panel-enablers .un-enabler-table-grouped td:nth-child(3){width:20%!important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(4),
+#panel-enablers .un-enabler-table-grouped td:nth-child(4){width:12%!important;}
+#panel-enablers .un-enabler-table-grouped th:nth-child(5),
+#panel-enablers .un-enabler-table-grouped td:nth-child(5){width:18%!important;}
+
+
+/* =========================================================
+   Upper Nile hero: Back to ABC Overview button cleanup
+   Removes the large translucent container and keeps only the
+   compact back button in the hero header.
+========================================================= */
+.un-hero .un-source-card{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+  padding:0 !important;
+  border-radius:0 !important;
+  display:flex !important;
+  align-items:flex-start !important;
+  justify-content:flex-end !important;
+}
+
+.un-hero .un-back-link{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  width:auto !important;
+  max-width:max-content !important;
+  margin:0 !important;
+  padding:10px 16px !important;
+  border-radius:999px !important;
+  background:rgba(255,255,255,.16) !important;
+  border:1px solid rgba(255,255,255,.28) !important;
+  color:#ffffff !important;
+  text-decoration:none !important;
+  font-weight:900 !important;
+  box-shadow:none !important;
+  transition:background .18s ease, transform .18s ease, border-color .18s ease;
+}
+
+.un-hero .un-back-link:hover{
+  background:rgba(255,255,255,.24) !important;
+  border-color:rgba(255,255,255,.40) !important;
+  transform:translateY(-1px);
+}
+
+@media(max-width:1100px){
+  .un-hero .un-source-card{
+    justify-content:flex-start !important;
+  }
+}
